@@ -1,7 +1,7 @@
 # Overall ideas
 The name of the game is "Who killed Uskar?". We start the game as a character which we have no ideas about. We don't know who our character is. We just know that the objective is to find out who killed Uskar. We don't even know who Uskar is. That is the only information we get.
 
-We start the game in a room. It looks like a medieval castle chamber with medieval furniture. We can walk around that room and examine the objects in it. There are some notes that we can read, some painings on the wall, and a door. If we open that door we go to the next room. The next room doesn't have any doors. We are stuck!
+We start the game in a room. It looks like a medieval castle chamber with medieval furniture. We can walk around that room and examine the objects in it. There are some notes that we can read, some paintings on the wall, and a door. If we open that door we go to the next room. The next room doesn't have any doors. We are stuck!
 
 When we are inside a room the time from the outside world's perspective is frozen, which means it doesn't go forward. The time is not a progressive and continuous entity. It is discrete and has a certain integer number assigned to it. The value of time is shown as the attributes tracked in the game. There are certain actions that will cause the value of time go forward or backward. The game starts at time zero.
 
