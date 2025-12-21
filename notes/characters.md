@@ -2,5 +2,13 @@ There are some characters in the game. Each have their own story and their own a
 
 # Characters
 
-## Uskar
+## Uskerr
 This is a character who got killed and we need to find out about it.
+
+## Bournache
+
+## lisspeg
+
+## Sekmidorgue
+
+## Bol
