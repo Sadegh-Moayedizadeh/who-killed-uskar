@@ -12,3 +12,5 @@ This is a character who got killed and we need to find out about it.
 ## Sekmidorgue
 
 ## Bol
+
+## Silarmousch
