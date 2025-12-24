@@ -11,3 +11,6 @@ This is one of the more obvious themes in this game. Since creatures are created
 
 ## Some objects contain a soul
 We can distinguish objects (in general term) as having soul and soul-less. If an object has a soul then a god can find a way to control them. The souls themselves can have distinct categories. A sould also can be fluid and change over time. We can define souls in this sense as a link between a creature and a god. Creatures may be able to harm their souls to weaken that connection. Maybe this is an intensive to do horrible things. Maybe this was the intent to kill Uskerr.
+
+## Mosters are creatures who destroyed their souls
+In order for the creatures to attain free will they need to break their ties with the gods. Since the link between them and the gods is their souls they have to destroy their souls in order to be really free. But it comes with a cost. A soul contains certain attributes, morals, and personalities of a certain creature. Damaging ones soul will ultimately turn them into monsters.
