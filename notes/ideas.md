@@ -29,7 +29,9 @@ If going back in time is possible then we should consider this concept of differ
 Since everything in the world is time-bounded then we can define everything in respect to the time. 
 
 ## The subjective structure of time shapes our understanind of the world
-It is our mind that understands everything in respect to the time. The player as a god has a time-bound understanding of the world. If something happens outside of the bounds of time then it is not possible to be understood by the gods therefore not able to be controlled. This is the real way to be free of gods which very few understand. The main reason for Uskerr to die and the player to start the game is to put the player in a process where they get stuck in time and kind of destroy the time completely and since the world is not understood out of the bounds of time by the gods then the creatures of the wolds will really be free and out of the reach of gods.
+It is our mind that understands everything in respect to the time. The player as a god has a time-bound understanding of the world. If something happens outside of the bounds of time then it is not possible to be understood by the gods therefore not able to be controlled. This is the real way to be free of gods which very few understand. The main reason for Uskerr to die and the player to start the game is to put the player in a process where they face antinomies so the creatures can really be free and out of the reach of the undestanding of the gods.
+
+## Kant's third antinomy is the key to solving the game
 
 ## Is freedom really desirable?
 A main theme in this game is this concept of freedom and some creatures want to be free of gods and therefore the rules that govern their world. A question that the player should be dwelling with in the entire game is that the freedom is really a good thing?
