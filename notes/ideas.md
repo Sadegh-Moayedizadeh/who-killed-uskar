@@ -65,3 +65,25 @@ Causality is a path in the graph of time.
 ## Sensibility is what labels time to phenomenons
 
 ## Understanding is what gathers the phenomenons
+
+## Being controlled by a god changes you
+If a character is controlled by a god, it changes them. It may cause them develop some thoughts or changes their intensives.
+
+## Creatures also have minds of their own
+Unlike the soul, a creature's mind is in its own control. A soul can control the mind but not the other way around. When the soul is not controlled by a god the mind is free and can act regardless.
+
+## Stronger the soul stronger the magical power
+
+## Objects can morph
+Objects can morph. They cannot turn into another kind of object but can get different characteristics. Morphing is not possible for objects that contain a soul. Maybe when a creature harms its soul and turns into a soulless monster their characteristics can change. For example they can get a different body, different abilities and so on. There should be some limits to this too. An example of morphing is for a door to change its affect on time or where it opens to.
+Morphing can also be temporary or permenant. The default can be temporary which gets back to the way it was after use. There may be some magics that can make morphing permenant. Permenantly morphing an object is a sin.
+
+## The hidden door in the second room
+When the player enters the second room they will get stuck since the only door in the second room gets them back to the first room. There is a hidden door in the second room which is only visible to creatures with a weak soul. There is also a hidden door that is visible to creatures with a strong soul but in the begining of the game it is not possible for the player to strengthen their soul.
+There is a also a sword in the second room that the player can wield. You should put the sword in your inventory and get back to the first room. There is a living creature in the first room. You can kill it with your sword and damage your soul. Then get back to the second room and find the hidden door.
+Each of the first two mentioned doors increment time by one. They require a key. You get the key from that creature.
+The creature in the first room is name `Lisspeg`. When you interact with Lisspeg it will tell you that he is guided by a mage named `Silarmousch`. Lisspeg is a simple creature in search of the truth and in desire for meeting with the gods. Silarmousch who is an old wise mage gave Lisspeg a key and sent him to this room to be trapped and wait until an unknown individual comes. Lisspeg should pass the key to that individual. Lisspeg will call your character, the prophet that is promissed to get him to meet the gods. He will fulfil his purpose and hands you the key. You then go to the second room, pick the sword and kill Lisspeg.
+Later in the game the player can possibly go back to this time, control Lisspeg's soul, kill the other character with whom he entered this room at this time, and proceed the game as Lisspeg. This will ultimately lead to a whole different path in the graph of time and space due to Lisspeg's specific characteristics. Maybe Lisspeg can enter rooms where the original creature was forbidden to enter or interact with certain characters who only answer to Lisspeg.
+
+## It is possible to lie
+There may be creatures who lie to you or you may lie to them. Lying is a sin and damages your soul.
