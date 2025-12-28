@@ -1,5 +1,7 @@
 class Soul:
-    pass
+    @property
+    def soundness(self) -> float:
+        return 50.0
 
 
 class SoulAttribute:

@@ -87,3 +87,6 @@ Later in the game the player can possibly go back to this time, control Lisspeg'
 
 ## It is possible to lie
 There may be creatures who lie to you or you may lie to them. Lying is a sin and damages your soul.
+
+## Magical stuff are done by `Magic`
+Magic itself is an entity. Magical stuff are all done by this entity. You need to have a soul to ask magic to do stuff for you.

@@ -11,6 +11,10 @@ A door can filter access of creatures in different circumstances. For example if
 
 ### Change time
 If a character passes a door the time changes. It can be different for each kind of a door. For example one kind of door will cause time to increment by one, the other makes it decrease by one, and the other won't change time.
+Since time is continuous then a door can change time in three ways:
+- Not at all.
+- Increment by one.
+- Decrement by one.
 
 ### Direction
 A door can only be one-way. You can pass a door and get into a room but necessariliy back.
@@ -23,3 +27,6 @@ A door can morph into another door with different abilities. For example there c
 
 ### Destination
 A door should have one and only one destination where a creature gets after passing.
+
+### Magic
+All doors are magic. If a creature has soul soundness of zero then it is completely trapped and can never leave any room.

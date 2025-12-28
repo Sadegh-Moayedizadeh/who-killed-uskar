@@ -34,7 +34,7 @@ When your stamina reaches its bottom it will make you unable to do anything that
 ### Health
 You simply die when your health is over. You also deal less damage and loose max stamina if your health core drains. Your stamina refill speed also depends on your health.
 
-### Sould strength
+### Soul strength
 Stronger the sould the more damage a magical weapon deals.
 
 ### Evil strength
