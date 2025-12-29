@@ -16,6 +16,8 @@ Since time is continuous then a door can change time in three ways:
 - Increment by one.
 - Decrement by one.
 
+Since door changes time and time is the higher most structure, then the door should be visible and controlled by time. Therefore the mapping between doors and their destination is defined in time. Since this mapping is defined in time then doors are something prebuilt and probably by the gods or whoever built the rooms and all other stuff.
+
 ### Direction
 A door can only be one-way. You can pass a door and get into a room but necessariliy back.
 
