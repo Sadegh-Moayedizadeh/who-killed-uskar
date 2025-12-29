@@ -1,4 +1,7 @@
+from __future__ import annotations
+
 from collections.abc import Iterable
+
 from models.door import Door
 from models.creature import Creature
 
@@ -25,3 +28,6 @@ class Room:
 
     def leave(self, creature: Creature) -> None:
         self._creatures.remove(creature)
+
+    def copy(self) -> Room:
+        raise NotImplemented()
