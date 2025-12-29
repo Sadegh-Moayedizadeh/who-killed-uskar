@@ -22,7 +22,13 @@ class Time:
     def value(self) -> int:
         return self._value
 
-    def pass_through_door(self, door: Door, creature: Creature, room: Room, key: Key) -> None:
+    def pass_through_door(
+        self,
+        door: Door,
+        creature: Creature,
+        room: Room,
+        key: Key
+    ) -> None:
         assert creature in room._creatures
         assert door in room._doors
         assert door.is_visible_to(creature)
