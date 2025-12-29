@@ -2,15 +2,16 @@ from collections.abc import Iterable
 from models.soul import Soul
 from models.key import Key
 from models.mind import Mind
+from models.inventory import Inventory
 
 
 class Creature:
     def __init__(self):
-        self._keys: list[Key] = []
+        self._inventory = Inventory()
 
     @property
-    def keys(self) -> Iterable[Key]:
-        return self._keys
+    def inventory(self) -> Inventory:
+        return self._inventory
 
     @property
     def mind(self) -> Mind:

@@ -26,7 +26,7 @@ class Time:
         assert creature in room._creatures
         assert door in room._doors
         assert door.is_visible_to(creature)
-        assert key in creature.keys
+        assert key in creature.inventory
         if door.lock.unlocks(key):
             room.leave(creature)
             new_room = self._doors_to_destination[door]
