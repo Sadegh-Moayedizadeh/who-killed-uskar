@@ -11,17 +11,23 @@ class Room:
         self,
         doors: Iterable[Door],
         creatures: Iterable[Creature],
+        label: str,
     ) -> None:
         self._doors = list(doors)
         self._creatures = list(creatures)
+        self._label = label
 
     @property
-    def creature(self) -> Iterable[Creature]:
+    def creatures(self) -> Iterable[Creature]:
         return self._creatures
 
     @property
     def _doors(self) -> Iterable[Door]:
         return self._doors
+
+    @property
+    def label(self) -> str:
+        return self._label
 
     def enter(self, creature: Creature) -> None:
         self._creatures.append(creature)
