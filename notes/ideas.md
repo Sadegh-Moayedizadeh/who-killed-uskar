@@ -90,3 +90,12 @@ There may be creatures who lie to you or you may lie to them. Lying is a sin and
 
 ## Magical stuff are done by `Magic`
 Magic itself is an entity. Magical stuff are all done by this entity. You need to have a soul to ask magic to do stuff for you.
+
+## The third room
+After finding the demonic door in the second room the controlled creature passes that door and enters the third room. That should probably look like a library with staircases and second floor and everything. This room may have many doors. The books in library should be possible to be read. i believe we could really write books about stuff and put them there. We may label this room with this question: "What knowledge is more accurate?". Or something about knowledge.
+Whatever this room is, it is what Silarmousch intended us to go into. There should be a pre-determined path that leads us to where Silarmousch wants us to. For now let's leave this part.
+There should be another mage that wants to help us. Let's name him `Bournache`. Via a magic painting he altered this room and left a note for us. This note should be very visible and unmissible. Somewhat in a way that 99 percent of players pick it up and act according to it. This note should contain information about another path. This is via a door that is currently hidden from us. Silarmousche wanted us to take the demonic door into this room so that our soul weakens in the process of making it visible and then only the demonic doors in this room are visible to us. There is another divine door in this room that is currently invisible to us. The note should completely explain the concept of soul, demons, doors, and so on, so that the player understands them fully. Then it should explain about Silarmousch and his intents. These should be in a way that most players are convinced to take this advice.
+To find the divine room and open it we should enhance our controlled creature's soul. As we already discussed, the acts that damage one's soul are called sins. Some of the sins are lying, murder, morphing an object, and going back in time.
+The acts that can purify one's soul can be (Rituals are stupid. They should help the divine cause):
+- Slaying monsters (So a divine path may contain many monsters. The twist is they may have been brought there by the mages themselves.).
+- During a sacrafice performed willingly by another creature to give their soul to you. They usually die performing this sacrafice.
