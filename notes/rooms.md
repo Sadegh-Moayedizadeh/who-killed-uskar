@@ -165,3 +165,51 @@ A door continuing Silarmousch's dark path. Visible due to the player's weakened 
 
 ## Regular entry flow
 The player enters via the Hidden Demonic Door from `Room 2`, having committed the sin of killing `Lisspeg` to weaken their soul and reveal the path. The player may keep on going through the demonic path or read `Bournache` note and summon him to do the sacrafice and progress through the devine path. The player is also able to read books.
+
+# Room 4
+## Label
+Who am I?
+
+## Description
+A puzzle room designed by `Bournache` to teach the Outer God (the player) the mechanics of possession, death, and vessel constraints. It is an inescapable space for the original character.
+
+## Contents
+
+### Creatures
+
+#### Bol
+An apprentice mage sent by `Bournache`. He acts as a messenger and unknowingly serves as the player's next vessel.
+
+### Artifacts
+
+#### Poison nectar
+A lethal drink offered by Bol.
+
+### Doors
+
+#### Door 7
+A devine door that leads to `Room 5`. Its filter constraint is that the creature passing it should not carry any weapons. The creature also nneds to have a rather pure soul.
+
+## Regular entry flow
+The player enters through the Divine Door in `Room 3`, having accepted Bournache's soul sacrifice to purify their own soul. To progress out of this room, the current vessel must die via poison, and the player must assume control of Bol.
+
+# room 5
+
+## Label
+How does magic work?
+
+## Description
+The Altar of Mages. This acts as a magical school and the central hub where the player formally learns about combat, time manipulation, and the deeper mechanics of the world.
+
+## Contents
+
+### Creatures
+
+#### Sekmidorgue
+A high mage and Bol's new mentor (replacing Bournache). Acts as the primary guide for this zone.
+
+### Doors
+(todo)
+
+## Regular entry flow
+The player enters via the Divine Door from Room 4. They must be controlling `Bol` (having dropped all weapons) to bypass the door's constraints and be recognized by `Sekmidorgue`.
