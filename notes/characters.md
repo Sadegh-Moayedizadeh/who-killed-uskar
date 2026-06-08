@@ -14,3 +14,5 @@ This is a character who got killed and we need to find out about it.
 ## Bol
 
 ## Silarmousch
+
+basjunard, drahlgoush, sournipit, buglaman, respidourgish, giesandal, margijah, ibnalan, gourgias, gieshaw, morshawl, Nourshabal, niblah, sourbee, 
