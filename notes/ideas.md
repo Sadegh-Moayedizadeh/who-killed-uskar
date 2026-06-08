@@ -1,142 +1,157 @@
-# Ideas
+# Ideas — Scratchpad for Unresolved Concepts and Future Development
 
-## The player is able to control any character
-Since the actual player is an outer god to the characters of the game, they should be capable of acting god when they know how to. The first devine act is starting the game itself. By starting the game, the player controls the character he is playing with. The player is himself, not the character. This clarification should be made perfectly well when the player gets into the room called "Who am I?".
-Progressing through the game, the player will find more about their ability as an outer god. One intersting ability can be controlling other characters in the game. This way they can bend their will and do stuff for them. It is also very important at what point in time the player starts controlling a character as their previous doings will still hold and have an effect on the game.
+This file is a scratchpad. It holds ideas that are not yet fully designed, questions that have not yet been answered, and directions for parts of the game still ahead. Ideas that have been incorporated into structured files (world/, mechanics/, story/, rooms/) have been removed. What remains is genuinely open.
 
-## Time is discrete
-Since the time is discrete then we can model each discrete instance of time as an object that holds the state of the world and a link to the times that proceed it. Each instance of time will have a list of time instances that proceed it. This is like a graph structure.
+---
 
-## The concept of free will
-This is one of the more obvious themes in this game. Since creatures are created and even sometimes to some degree controlled by the outer gods then we might say that they don't have any actual free will. But this has to be a bit tricky and less obvious. There should be circumstances and events in the game that questions this fact. There should be cases where things go out of control of the player and things become challenging to them. There should be situations where things seem obvious and doable to a player but it's very hard or even impossible to do. These situations should be designed in a way that the player feels things are out of his control. In a way the player who is an outer god should feed the same constraints and hardshipgs enforced to them as the creatures in the game feel. This should be done by the creatures that the player is not controlling.
+## Playing as Lisspeg in a Different Time Branch
 
-## The distinction between gods and creatures
+The general concept of the player controlling any character has been incorporated into world/gods.md, and the specific Lisspeg possibility is documented in rooms/room_01.md and story/narrative.md (Act 5). But the actual design of the Lisspeg playthrough is entirely absent.
 
-## Some objects contain a soul
-We can distinguish objects (in general term) as having soul and soul-less. If an object has a soul then a god can find a way to control them. The souls themselves can have distinct categories. A sould also can be fluid and change over time. We can define souls in this sense as a link between a creature and a god. Creatures may be able to harm their souls to weaken that connection. Maybe this is an intensive to do horrible things. Maybe this was the intent to kill Uskerr.
+What needs work:
+- Which rooms can Lisspeg enter that the original vessel and Bol cannot? What is specific to Lisspeg's access profile?
+- What conversations open up when the player arrives as Lisspeg? Who in the world knew Lisspeg, or recognizes a creature of his type or history?
+- What does Lisspeg know that no other vessel knows — about Silarmousch's instructions, about whatever Silarmousch's real plan was, about the time before Room 1?
+- Does playing as Lisspeg lead to a different answer to the central mystery, or does it provide a piece of the same answer that is unavailable from any other angle?
+- The time branch mechanics (going back, possessing Lisspeg's soul, then proceeding forward on a new branch) need a concrete scene design, not just a mention.
 
-## Mosters are creatures who destroyed their souls
-In order for the creatures to attain free will they need to break their ties with the gods. Since the link between them and the gods is their souls they have to destroy their souls in order to be really free. But it comes with a cost. A soul contains certain attributes, morals, and personalities of a certain creature. Damaging ones soul will ultimately turn them into monsters.
+---
 
-## A character really dies
-If a character the player is playing with dies, it dies for real. This should be done in a way that does not make the game boring and player won't have to make the same journey all the way back to where it was. Perhaps we can use the concept of time to make this possible.
+## Kant's Third Antinomy as the Key to Solving the Game
 
-## There are different branches of time
-If going back in time is possible then we should consider this concept of different branches of time. If a player goes back in time and takes a different path that leads the character to somewhere new, since the character can't be at two different places at the same time then the timeline will split and we will have a new branch of time.
+The third antinomy (freedom vs. determinism) is named in story/narrative.md as the game's organizing philosophical tension, and the tension is described in broad terms. But the game does not yet have a specific moment — a room, a puzzle, a confrontation — where the antinomy is experienced mechanically and not just read about.
 
+What needs work:
+- There should be at least one moment where the player is confronted with the antinomy in a way that cannot be resolved by reading a book or receiving dialogue. Something must happen to the player that forces them to feel the thesis and the antithesis simultaneously, not just understand them abstractly.
+- The third antinomy is described as the "key to solving the game." This implies it should be something the player applies — a realization that unlocks access or changes how they act — not merely something they learn. The mechanism of this application is entirely undesigned.
+- Kant's specific resolution (that freedom and causality operate in different registers — noumenal vs. phenomenal) may be the model for the game's own resolution: that true freedom exists in a domain (outside time) that causal/temporal reasoning cannot reach. This structural parallel needs to be made concrete in Act 4 or 5.
 
-## Time is an object that holds the state of the world
-Since everything in the world is time-bounded then we can define everything in respect to the time. 
+---
 
-## The subjective structure of time shapes our understanind of the world
-It is our mind that understands everything in respect to the time. The player as a god has a time-bound understanding of the world. If something happens outside of the bounds of time then it is not possible to be understood by the gods therefore not able to be controlled. This is the real way to be free of gods which very few understand. The main reason for Uskerr to die and the player to start the game is to put the player in a process where they face antinomies so the creatures can really be free and out of the reach of the undestanding of the gods.
+## "Is Freedom Really Desirable?" — Moments That Force the Question
 
-## Kant's third antinomy is the key to solving the game
+The question is present in the narrative document as a confirmed recurring theme, and the philosophical framing is laid out. The mechanics that push against freedom are described. But the game does not yet have specific scenes or choice points that make this question personal and unresolvable in the moment.
 
-## Is freedom really desirable?
-A main theme in this game is this concept of freedom and some creatures want to be free of gods and therefore the rules that govern their world. A question that the player should be dwelling with in the entire game is that the freedom is really a good thing?
+What needs work:
+- Design at least two or three scenes in Act 4 where the player faces a genuine choice between more freedom (more sin, more demonic ability, more independence from the divine hierarchy) and a constrained path that keeps them connected to the divine. These scenes need to make freedom feel genuinely appealing, not just abstractly tempting.
+- The book "The Joy of Divine Possession" and the Gounargoun mythology represent the divine side of this question. What represents the freedom side compellingly and without caricature? There should be a character or event that makes the player want what the monsters have, even knowing the cost.
+- The Outer God themselves should eventually confront this question. The player is a god — but also constrained by higher gods. Is the Outer God free? Does the Outer God want to be?
 
-## Splitting the time is a kardinal sin
+---
 
-## Kardinal sins damage one's soul
+## Going Back in Time Creates Duplication — The World Creation Mechanic
 
-## Murder is a kardinal sin
+Documented in world/time.md as a fact about how branching works. The idea that the entire world was created by a primordial creator using this duplication mechanic is mentioned in a single line in world/time.md but has no elaboration, no historical narrative, no mythological grounding.
 
-## Soul is a discrete set of attributes
-A soul seems to be a continuous entity but in fact can be modeled as a discrete entity. It is a collection of attributes. If a soul is damaged then some of its attributes are lost.
+What needs work:
+- Who or what was the primordial creator? Is this the same as the main god referenced in the original notes? Is this figure relevant to the investigation of Uskar's death, or is it purely cosmological backstory?
+- The mechanism is described abstractly: morph artifacts and creatures, go back in time, forward again, creating duplicates to populate the world. This could be a key piece of lore found during the investigation in Act 4 — a discovered text or painting that reveals the world's origin.
+- Does this mechanic have any implications for the mystery? If duplication created the world, could a duplicate of Uskar exist somewhere, locked in a Chronos-bound time value? Could the answer to "who killed Uskar" be complicated by the existence of multiple Uskar instances?
 
-## Wizards are the ones with the strongest souls
-Wizards lie on the other side of the spectrum. In contrast to demons who have got the weakest souls and monsters who have got no souls at all, wizards have the strongest souls. Their ties to the gods is so strong and pure. They enjoy being devine and controlled by the gods. It is the easiest for the gods to control wizards. They are the most equiped with attributes and abilities.
+---
 
-## If you loose a part of your soul something else will replace it
+## "The World Was Started by One Creature" — The Primordial Creator
 
-## Strengthening a soul also comes with a cost
+Related to the above but distinct. This is the idea of a single originating being who morphed itself to create the population of creatures, not just artifacts.
 
-## Characters can kill themselves with poison
+What needs work:
+- Is this creature a god, a pre-god, or something else entirely?
+- Does this creature still exist in the world's current timeline? At what time value?
+- Is this the identity of the Outer God? Is the player, in a late-game time-travel sequence, the primordial creator — traveling back to T=0 to seed the world they have been inhabiting?
+- This connects directly to Candidate 3 for Uskar's death (the Outer God killed Uskar through time travel). If the Outer God is also the world's creator, the causal loop becomes total.
 
-## There is a cult of mass suicide
-Poisons are not easy to aquire. You must join a cult of mass suicide.
+---
 
-## The player can control a character and kill it with poison
+## Uncontrolled Creatures and Automated Behavior
 
-## Causality is when the order of phenomenons are enforced
-Causality is a path in the graph of time.
+The concept is noted in the original ideas: uncontrolled creatures act automatically based on rules. world/time.md handles the time-perception side (events within a time value have internal order without advancing the integer). But the actual behavioral rules for uncontrolled creatures — how they decide what to do, how they interact with the time system, what triggers their movement — have not been designed.
 
-## Sensibility is what labels time to phenomenons
+What needs work:
+- What is the rule system that governs NPC behavior within a time instance? Do they have scripted sequences, decision trees, or something more emergent?
+- When the player is not controlling a creature, and that creature is known to the Outer God, does the god passively observe them? Or are they simply absent from the god's perception until directly interacted with?
+- In Act 4, the player will need to observe past events (to investigate Uskar's death). This requires uncontrolled historical figures to be "running" in some coherent way at past time values. The system for this is undesigned.
 
-## Understanding is what gathers the phenomenons
+---
 
-## Being controlled by a god changes you
-If a character is controlled by a god, it changes them. It may cause them develop some thoughts or changes their intensives.
+## Being Controlled by a God Changes You — Specific Moments and Consequences
 
-## Creatures also have minds of their own
-Unlike the soul, a creature's mind is in its own control. A soul can control the mind but not the other way around. When the soul is not controlled by a god the mind is free and can act regardless.
+The general principle is documented in world/gods.md (mind degradation, soul interaction). Bol's experience of possession is noted in story/characters.md. But the qualitative experience of being changed — the thoughts that develop, the instincts that shift, the personality drift — has no specific scene design.
 
-## Stronger the soul stronger the magical power
+What needs work:
+- What specifically changes in Bol over the course of Act 3 and into Act 4 as a result of carrying the Outer God? There should be visible changes in how Sekmidorgue talks to him, in how he talks to other mages, in what he says unprompted.
+- Are there moments where Bol resists the Outer God — where his own instincts push back against the player's intended action? This is mechanically interesting and thematically essential to the free will question.
+- What happens to Bol's relationships? If he becomes visibly altered — clearer, more powerful, slightly wrong — how do the mages at the Altar respond?
+- This also applies to any future vessel. Being controlled by a god should leave marks. Those marks should be observable by the player.
 
-## Objects can morph
-Objects can morph. They cannot turn into another kind of object but can get different characteristics. Morphing is not possible for objects that contain a soul. Maybe when a creature harms its soul and turns into a soulless monster their characteristics can change. For example they can get a different body, different abilities and so on. There should be some limits to this too. An example of morphing is for a door to change its affect on time or where it opens to.
-Morphing can also be temporary or permenant. The default can be temporary which gets back to the way it was after use. There may be some magics that can make morphing permenant. Permenantly morphing an object is a sin.
+---
 
-## The hidden door in the second room
-When the player enters the second room they will get stuck since the only door in the second room gets them back to the first room. There is a hidden door in the second room which is only visible to creatures with a weak soul. There is also a hidden door that is visible to creatures with a strong soul but in the begining of the game it is not possible for the player to strengthen their soul.
-There is a also a sword in the second room that the player can wield. You should put the sword in your inventory and get back to the first room. There is a living creature in the first room. You can kill it with your sword and damage your soul. Then get back to the second room and find the hidden door.
-Each of the first two mentioned doors increment time by one. They require a key. You get the key from that creature.
-The creature in the first room is name `Lisspeg`. When you interact with Lisspeg it will tell you that he is guided by a mage named `Silarmousch`. Lisspeg is a simple creature in search of the truth and in desire for meeting with the gods. Silarmousch who is an old wise mage gave Lisspeg a key and sent him to this room to be trapped and wait until an unknown individual comes. Lisspeg should pass the key to that individual. Lisspeg will call your character, the prophet that is promissed to get him to meet the gods. He will fulfil his purpose and hands you the key. You then go to the second room, pick the sword and kill Lisspeg.
-Later in the game the player can possibly go back to this time, control Lisspeg's soul, kill the other character with whom he entered this room at this time, and proceed the game as Lisspeg. This will ultimately lead to a whole different path in the graph of time and space due to Lisspeg's specific characteristics. Maybe Lisspeg can enter rooms where the original creature was forbidden to enter or interact with certain characters who only answer to Lisspeg.
+## The Cult of Mass Suicide — Beliefs, Mechanics, and Role in the Story
 
-## It is possible to lie
-There may be creatures who lie to you or you may lie to them. Lying is a sin and damages your soul.
+Mentioned briefly in the original ideas and documented only in a single note in rooms/room_03.md (the book "Poisons and Their Purposes"). The cult is completely undeveloped as a faction.
 
-## Magical stuff are done by `Magic`
-Magic itself is an entity. Magical stuff are all done by this entity. You need to have a soul to ask magic to do stuff for you.
+What needs work:
+- What does this cult believe? What theology or philosophy justifies mass voluntary death?
+- What is their relationship to the game's central themes? Do they believe death releases them from divine control? Are they pursuing the "outside of time" freedom through suicide — and are they right, wrong, or partially right?
+- Where are they in the world? Are they present in Act 4? Are they a resource, an obstacle, or both?
+- The poison used to kill the original vessel in Room 4 — where did Bournache get it? Did Bol get it from this cult? Does acquiring poison require involvement with the cult? If so, Bol's backstory may intersect with the cult before the game begins.
+- Is there a cult leader? Is the cult connected to Silarmousch, to Uskar, or to neither?
 
-## The third room
-After finding the demonic door in the second room the controlled creature passes that door and enters the third room. That should probably look like a library with staircases and second floor and everything. This room may have many doors. The books in library should be possible to be read. i believe we could really write books about stuff and put them there. We may label this room with this question: "What knowledge is more accurate?". Or something about knowledge.
-Whatever this room is, it is what Silarmousch intended us to go into. There should be a pre-determined path that leads us to where Silarmousch wants us to. For now let's leave this part.
-There should be another mage that wants to help us. Let's name him `Bournache`. Via a magic painting he altered this room and left a note for us. This note should be very visible and unmissible. Somewhat in a way that 99 percent of players pick it up and act according to it. This note should contain information about another path. This is via a door that is currently hidden from us. Silarmousche wanted us to take the demonic door into this room so that our soul weakens in the process of making it visible and then only the demonic doors in this room are visible to us. There is another divine door in this room that is currently invisible to us. The note should completely explain the concept of soul, demons, doors, and so on, so that the player understands them fully. Then it should explain about Silarmousch and his intents. These should be in a way that most players are convinced to take this advice.
-To find the divine room and open it we should enhance our controlled creature's soul. As we already discussed, the acts that damage one's soul are called sins. Some of the sins are lying, murder, morphing an object, and going back in time.
-The acts that can purify one's soul can be (Rituals are stupid. They should help the divine cause):
-- Slaying monsters (So a divine path may contain many monsters. The twist is they may have been brought there by the mages themselves.).
-- During a sacrafice performed willingly by another creature to give their soul to you. They usually die performing this sacrafice.
-The notes will explain how the player can use a painting and interact with another room. There will be a painting that the player can use inform Bournache about his presense. Then he needs to pass time by one unit. To do this there will be a door with no effect on time that sends the player back to the second room. This is also a demonic door. Then the player can go back to the third room passing time by one increment. In this room this time the player will find Bournache. Bournache will communicate with the player and if the player accepts Bournache will sacrafice his soul.
-During the sacrafice Bournache gives his soul to the controlled character and dies. Maybe Bournache is already present in this room and interacts with the player. This way the player won't need to read all the boring content and just hears from Bournache. The character can also kill Bournache or ignore him and move on. But by accepting Bournache's soul the demonic door will become invisible and the devine door will become visible.
-There are other possibilities here that need to be addressed:
-- The player goes through the demonic door without passing any time.
-- The player goes through the demonic door after passing the time by any increment.
-- The player kills Bournache and passes through the demonic door.
-- The player introduces himself to Bournache and then ignores him and doesn't let him sacrafice his soul and then passes through the demonic door.
-- The player accepts Bournache's sacrafice and then passes through the divine door after zero or any time increment.
-Let's stick with the main narative for now which is the last one in the above listing.
+---
 
-## The Fourth room
-In this room the player will find out that he is a god and can control all creatures with souls that he knows of. So we need to track the creatures known by the player. The label of this room can be `Who am I?`.
-This room is Bournches design. Not the question of course, but its content. There is a creature in this room named `Bol`. The player can interact with him. Bol will tell the player that he is sent here by Bounache and offers the creature a nectar. There will be no door in this room visible and Bol claims the only way for a door to be visible is to drink the given juice. That juice will of course be poison and causes the character to die.
-Bol won't commit a sin here. Because he didn't directly kill the creature. He also didn't lie about the door. The door will become visible to the player once the player controls Bol's soul as a god.
-After the controlled creature dies the player will see a list of the characters he encountered in this game. There are Lisspeg, Bournache, Bol, and his original character who is unnamed. All except Bol are dead. So the only way will be to control Bol. Now a divine door will become visible and the player can proceed. This door leads to the altar of mages. The player will encounter with a lot of mages and there will be a place where the player learns about combat system and everything in the game.
-The player cannot enter this room wielding a weapon. So he has to drop his weapon too.
-There should also be a way that Bol can't be recognized as a creature controlled by a god. This should be clarified in this room. To enter the altar of mages you also have to be a known mage. Bol is a mage but the original creature is not. So this door even if visible by the original creature wouldn't have been possible to pass.
-There is a choice here. That is to kill Bol. This will become impossible By setting the no weapon constraint on the door leading into this room. So you won't be able to kill Bol.
+## Objects "Outside of Time" — True Freedom as Imperceptibility
 
-## Controlling other creatures
-A god can control a creature only when his current controlled creature dies. There are two ways to die. Either being killed by another creature or drinking poison. The creatures who are able to be controlled need to have a soul and to be known by the player. A creature's mind will deteriorate as long as he is controlled by a god. He will finally loose his mind completely and becomes useless to the god. This is the third way that the player can switch his controlled creature. The deterioration happens by passing time. After incrementing a time the creature will loose his mind by one unit. Decrementing the time will have the opposite effect but will harm the soul as it is a sin.
-Controlling a creature will also have certain degrees. If a soul is strong this control will be better. If the soul is weak, it will be the other way around. This will affect the creature's ability. For example a creature cannot use magical weapons and will only be able to deal physical damage. There will also be a delay between commands from the player and their execution by the controlled creature.
+Documented in world/gods.md and world/souls.md as the game's ultimate secret. story/narrative.md calls it "the game's deepest theme." But the game has no concrete encounter with a being or object that has achieved this state.
 
-## The fifth room
-This is more of an altar of mages. The label will be `How does magic work?`. The player is controlling Bol here. Bol will be guided by a mage named `Sekmidorgue`. This room is a kind of school. The player will find out that Bol is an apprentice in mage arts. He was guided by Bournache and without knowing he made it possible for him to be controlled by a god. In this room the player will learn magical arts and everything about time and soul and everything else.
-There are other mages in this room too. We will find names for them too. But Bol's mentor is Sekmidorgue. Bol's original mentor was Bournache but since Bournache is gone to a sacred mission Sekmidorgue has now become his new mentor. This is the first session where Sekmidorgue acts as Bol's mentor. So it is kind of introductory too. If the player approaches other creatures in this room they will simply tell Bol that they are not his mentor and he should go back to Sekmidorgue for his lessons.
+What needs work:
+- How does the player first encounter evidence that this state exists? It cannot only be delivered through books. There should be a moment where the player looks for someone they should be able to find and cannot — a creature who has exited time and is simply gone.
+- What does it feel like from the inside? If the player could momentarily experience the outside-of-time state, what would they perceive or fail to perceive?
+- This state is the game's answer to Kant's antinomy. It needs to be designed as an experiential moment, not just a cosmological fact the player reads about.
+- If Uskar achieved this state, then Uskar was never killed — they exited. The "murder" is a misreading of an exit. This is perhaps the most structurally satisfying answer to the mystery, but it requires the game to have shown the player what that exit looks like before the answer lands.
 
-## Going back in time may duplicate things
-Imagine if a creature wants to pass through a door that gets him back in time. If the creature ends up in a room different from where it was exactly at that time or with a state different from what was exactly at that time then we will have a complex situation. Suppose arriving at a time with a soul with different purity or holding different or altered artifacts. If we choose to be a bit loose about this then we will have a dupplication. Everything ramaining as they were at that time but entering a clone at that time too. Maybe this is the way that this world has expanded and new creatures were created.
+---
 
-## The world was started by one creature
-Since things get dupplicated going back in time we can increase the population of creatures and the number of artifacts. Using the morphing ability we can also make alterations. I believe the creator of the game should take certain steps to morph creatures and artifacts and dupplicate them to create this world. The sole starting creature holding all the parent artifacts can go forward in time and morphs his artifacts and even himself and goes back in time to maybe time zero. Now the population of everything will increment by one. The first player of the game who does all these is the main god.
+## Secondary Characters — Who Are They and What Are They For?
 
-## A creature can only go back in time by one increment on the same branch of time
-The graph of time will be actually a tree where a node can have multiple children but only one parent. Multiple times cannot lead to the same child time. So when you go back in time that branch will be unreachable forever. If you go forward in time you will create a brand new child for that node.
+story/characters.md lists fourteen named characters as "placeholders for future work": basjunard, drahlgoush, sournipit, buglaman, respidourgish, giesandal, margijah, ibnalan, gourgias, gieshaw, morshawl, Nourshabal, niblah, sourbee.
 
-## Uncontrolled creatures can be automated
-Other creatures can act automatically based on certain rules. The twist here will be their relationship with time. Suppose an uncontrolled creature wants to leave a room via a door while you are present in that room. This will be a bit wierd based on the perception of time. If the time doesn't move then the sequence of stuff happening at that time, for example a character dying or moving or getting hurt or morphing or leaving a room that have order will actually imperatively hold the concept of time. We should find a solution for this problem.
+What needs work:
+- None of these characters have roles, factions, locations, or relationships. They are names.
+- Act 4 requires a populated world. These names should become the mages, investigators, witnesses, and antagonists of the investigation phase.
+- Each name follows the world's phonetic convention (harsh consonants, unusual vowel combinations). They are clearly of this world. Assigning even a brief function to each — ally, obstacle, witness, red herring, historical figure — would unlock the ability to write Act 4 scenes.
+- Some may be associated with Silarmousch. Some may be neutral mages with partial knowledge of Uskar. Some may be figures who knew Uskar personally and have been waiting for someone to ask.
 
-## The perception of reality is subjective
-When the time doesn't pass for a creature and he stays in a room no time related thing will happen. No creature will enter from a door that changes time. All these will happen at the start of a time instance and the player will see everything already present. This time will only have meaning for the creature's view point.
+---
+
+## The Demonic Path — What Happens Through Door 6?
+
+Room 3's Door 6 is confirmed as leading to a darker branch of the game. Its destination is marked TBD in rooms/room_03.md and story/narrative.md.
+
+What needs work:
+- What is in the room beyond Door 6? What is its label and its design logic?
+- Does the demonic path have its own coherent narrative — a story the game tells through corruption rather than purification? Or is it a descending sequence of increasingly bad choices with no redemption arc?
+- Silarmousch designed this path intentionally. What did he want the player to find at the end of it? Is there a goal reachable only by the demonic path that the divine path cannot reach?
+- At what point, if ever, does the demonic path converge back with the divine path? Or are they permanently divergent from Door 6 onward?
+- The demonic continuation is the game's alternate Act 2. Even a rough sketch — three rooms, a destination, a character — would ground it enough to write the choices in Room 3 with proper weight.
+
+---
+
+## Divine Door 4 in Room 2 — Destination and Purpose
+
+rooms/room_02.md documents Door 4 as a hidden divine door visible only to a creature with a very pure soul. Its destination is marked TBD.
+
+What needs work:
+- Where does Door 4 lead? It is described as a "bypass" that skips a substantial portion of the early game. What does bypassed mean structurally? Does it skip to Room 4 directly? To somewhere else entirely?
+- What does the existence of this door say about the world's design? Silarmousch designed Room 2 as a trap, but Door 4 is not Silarmousch's door. Who placed it there? Was it Bournache? An earlier god? Is it a structural feature of the room predating both mages?
+- If a player somehow enters Room 2 with an extremely pure soul — perhaps on a return visit after Act 3 — and takes Door 4, what do they find? Is this a secret ending, an alternate investigation route, or a shortcut with its own costs?
+
+---
+
+## Who Killed Uskar — The Answer
+
+story/narrative.md presents three candidate answers, all marked TBD. The central mystery of the game has no resolved answer.
+
+What needs work:
+- This is the most consequential open question. Acts 4 and 5 cannot be written without at least a provisional answer to design toward.
+- The three candidates (Silarmousch, Uskar themselves, the Outer God through time travel) are not mutually exclusive. The game may want all three to be partially true, or it may want one to be definitively correct.
+- The answer must be one that requires the full suite of knowledge the game has taught — soul mechanics, time mechanics, divine hierarchy, Chronos Locks, magical paintings, notes as world-objects — to understand. It should not be solvable by someone who skipped the tutorial.
+- The answer must already be present in Room 1. This is confirmed. The design work is to determine what in Room 1 encodes the answer — which painting, which object, which feature of the room — and then to make sure that feature is present from the first visit without giving the answer away before the player has the context to read it.
