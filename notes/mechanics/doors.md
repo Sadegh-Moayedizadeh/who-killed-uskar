@@ -1,6 +1,8 @@
 # Doors
 
-All doors in "Who Killed Uskar?" are magical constructs built into the architecture of the world — almost certainly by the gods or primordial creators. They are not merely physical passages but metaphysical mechanisms that govern movement, time, and access throughout the world.
+Doors in "Who Killed Uskar?" are not all alike. Some are mundane physical passages, but many are metaphysical mechanisms — built into the architecture of the world, almost certainly by the gods or primordial creators — that govern movement, time, and access. A door may be a simple corridor between two rooms, or a construct that bends time and admits only a particular kind of soul.
+
+Not every door is even visible to every creature. Some doors only reveal themselves to creatures whose soul soundness exceeds a certain value; others only reveal themselves to creatures whose soul corruption exceeds a certain value. A door a pure soul walks past unseen may be plainly visible to a sinner, and vice versa.
 
 Understanding a door requires knowing both its physical properties (lock, direction) and its metaphysical properties (soul constraint, time effect). A creature that fails to grasp either dimension will find itself trapped.
 
@@ -18,18 +20,17 @@ A creature with a soul soundness of 0 is completely trapped. It cannot pass any 
 
 ### Access (Lock)
 
-A door can be locked with a lock. A locked door blocks all creatures that do not possess the correct key type. Locked doors have one additional hard constraint: **a locked door cannot be morphed**. The lock freezes the door's properties entirely.
+A door can be locked with a lock. A locked door blocks all creatures that do not possess the correct key type.
 
 Key types are distinct artifacts — possessing one key does not grant access to doors requiring a different type. See [mechanics/artifacts.md](mechanics/artifacts.md) for key and lock behavior.
 
 ### Filter (Soul Constraint)
 
-A door can filter creatures based on their properties. Four known filter conditions:
+A door can filter creatures based on their properties. Three known filter conditions:
 
 - **Soul soundness above threshold**: only creatures whose soul soundness meets or exceeds a defined divine threshold may interact with the door.
-- **Soul soundness below threshold**: only creatures whose soul soundness is at or below a defined demonic threshold may interact with the door.
+- **Soul corruption above threshold**: only creatures whose soul corruption meets or exceeds a defined demonic threshold may interact with the door.
 - **Carrying weapons**: the door refuses entry to armed creatures.
-- **Known mage status**: the door admits only creatures recognized as mages.
 
 When a creature fails a filter, the outcome depends on the door's visibility setting — it may be unable to see the door at all, or it may see the door but find it impassable.
 
@@ -37,9 +38,9 @@ For soul soundness mechanics, see [world/souls.md](world/souls.md).
 
 ### Visibility
 
-Some doors are invisible to certain creatures. A creature that cannot see a door cannot interact with it in any way — it cannot touch it, pass through it, or morph it.
+Some doors are invisible to certain creatures. A creature that cannot see a door cannot interact with it in any way — it cannot touch it or pass through it.
 
-Visibility can be gated by soul thresholds (a sinner cannot see a divine door; a pure soul cannot see a demonic door), by knowledge, or by the current time value.
+Visibility can be gated by soul thresholds — a door may require soul soundness above a value to reveal itself, or soul corruption above a value — as well as by knowledge or by the current time value.
 
 ### Time Effect
 
@@ -53,27 +54,13 @@ The time effect is fixed as a property of the door, not a choice made at the mom
 
 ### Direction
 
-A door can be one-way (unidirectional) or two-way.
-
-- **One-way**: a creature can pass through in one direction only. It cannot return through the same door.
-- **Two-way**: passage is permitted in both directions.
+All doors are one-directional. A creature can pass through a door in one direction only; it cannot return through the same door. To go back, a creature must find another door leading the other way.
 
 Direction is independent of time effect and soul constraint.
 
 ### Destination
 
-A door has exactly one destination at any given time value. Because the destination mapping is defined over time, the same door can lead to different places depending on when it is used. A morphed door or a time-split may resolve to a destination that was not reachable before.
-
-### Morphing
-
-A non-locked door can be morphed: its destination, time effect, or other properties can be altered by a creature with sufficient magical soul strength.
-
-Morphing has two modes with different moral weight:
-
-- **Temporary morphing** (the door reverts after one use): not a sin.
-- **Permanent morphing**: a cardinal sin.
-
-The distinction matters because soul soundness affects which doors a creature can use. A creature that permanently morphs a door may find that the act itself closes other doors to them. See [world/souls.md](world/souls.md).
+A door has exactly one destination at any given time value. Because the destination mapping is defined over time, the same door can lead to different places depending on when it is used. A time-split may resolve to a destination that was not reachable before.
 
 ---
 
@@ -87,28 +74,25 @@ The distinction matters because soul soundness affects which doors a creature ca
 
 ### Demonic Door
 
-- Filter: soul soundness must be at or below the demonic threshold.
-- Visibility: invisible to creatures above the threshold. Pure souls cannot see or interact with it.
+- Filter: soul corruption must exceed the demonic threshold.
+- Visibility: invisible to creatures below that corruption level. Pure souls cannot see or interact with it.
 - Intended for sinners only.
 
 ### Locked Door
 
 - Access: requires a specific key type.
 - Not soul-constrained by default.
-- Cannot be morphed while locked.
 
 ### Time Door
 
 - Specifically designed to produce a non-zero time effect (increment or decrement).
-- Can be one-way.
 - Used to construct loops, advances, and retreats in the time-tree.
 
-### Two-Way Neutral Door
+### Neutral Door
 
-- Passes in both directions.
 - Time effect: no change.
 - No soul constraint, no lock.
-- Used as corridors between rooms — particularly in tutorial sections.
+- Used as corridors between rooms — particularly in tutorial sections. Because all doors are one-directional, a corridor connecting two rooms is typically built from a pair of neutral doors, one for each direction.
 
 ---
 
