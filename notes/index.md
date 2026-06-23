@@ -15,7 +15,8 @@ These notes follow a modular, OOP-style organization: each file describes one sy
 3. Read the [mechanics/](mechanics/) files to understand gameplay systems.
 4. Read the [story/](story/) files to understand the narrative arc and characters.
 5. Read the [rooms/](rooms/) files to understand each individual location.
-6. Read the [books/](books/) files to understand in-world lore.
+6. Read the [conversations/](conversations/) files for the branched dialogue scripts.
+7. Read the [books/](books/) files to understand in-world lore.
 
 ---
 
@@ -48,10 +49,25 @@ Gameplay systems and their rules.
 
 | File | Purpose |
 |------|---------|
+| [mechanics/creatures.md](mechanics/creatures.md) | Creatures as game objects: body/soul/mind, alignment (divine, demonic, monster), characteristics, possession |
 | [mechanics/artifacts.md](mechanics/artifacts.md) | All artifact types: keys, swords, shields, poison, paintings, dolls, notes, locks |
 | [mechanics/doors.md](mechanics/doors.md) | Door types, filters, time effects, and morphing rules |
 | [mechanics/combat.md](mechanics/combat.md) | Combat moves, weapons, stamina, and health |
-| [mechanics/dialogues.md](mechanics/dialogues.md) | Key dialogue scripts and conversation flows |
+
+---
+
+### Conversations
+
+Branched conversation scripts, one file per conversation. Each can fork on player choices, on what a character is told, and on world state.
+
+| File | Purpose |
+|------|---------|
+| [conversations/index.md](conversations/index.md) | Conventions for conversation files and the catalog of all conversations |
+| [conversations/lisspeg_room_01.md](conversations/lisspeg_room_01.md) | Lisspeg's first meeting in Room 1 |
+| [conversations/bournache_note_room_03.md](conversations/bournache_note_room_03.md) | Bournache's exposition note in Room 3 |
+| [conversations/bournache_sacrifice_room_03.md](conversations/bournache_sacrifice_room_03.md) | Bournache's sacrifice in Room 3 |
+| [conversations/bol_room_04.md](conversations/bol_room_04.md) | Bol's nectar scene in Room 4 |
+| [conversations/sekmidorgue_room_05.md](conversations/sekmidorgue_room_05.md) | Sekmidorgue and the five disciplines in Room 5 |
 
 ---
 
