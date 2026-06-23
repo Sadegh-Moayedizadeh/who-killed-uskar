@@ -2,9 +2,9 @@
 
 ## Overview
 
-A soul is the metaphysical link between a creature and the gods. It is the mechanism through which gods perceive, reach, and control the creatures of the world. Without a soul, a creature is invisible to divine influence — but also stripped of the attributes that make it a thinking being.
+A soul is the metaphysical link between a creature and the gods. It is the mechanism through which gods perceive, reach, and control the creatures of the world. Without a soul, a creature is invisible to divine influence — and severed from the gods entirely.
 
-Souls are not continuous, formless essences. They are discrete: modeled as a set of attributes. Each attribute represents a personality trait, a moral instinct, or an ability. Losing part of a soul means losing some of those attributes permanently.
+A soul is not a collection of separate parts. It is a single, indivisible whole that can be **corrupted** or **purified**. Corruption weakens the soul's connection to the gods and lets demonic tendencies emerge; purification strengthens that connection. How much of a soul has been corrupted or purified is captured by its *soundness* (below).
 
 See [world/gods.md](world/gods.md) for how gods exercise control through souls, and [world/time.md](world/time.md) for how time interacts with soul damage and restoration.
 
@@ -12,15 +12,17 @@ See [world/gods.md](world/gods.md) for how gods exercise control through souls, 
 
 ## Soul Soundness
 
-Every soul has a **soundness** value — an integer between 0 and 100.
+Every soul has a **soundness** value that measures how much of it remains pure rather than corrupted. The higher the soundness, the purer the soul and the stronger its connection to the gods.
 
-| Soundness | Meaning |
-|-----------|---------|
-| 100 | Fully intact soul |
-| 1–99 | Partially damaged soul |
+The numbers below are **only examples**. In practice soundness values vary, and there is no fixed scale — what matters is relative position, not the exact figure. Souls also differ in **size** from one creature to another, so the same soundness can correspond to very different amounts of soul. A creature whose soul is at **maximum soundness is a mage**.
+
+| Soundness (example) | Meaning |
+|---------------------|---------|
+| 100 | Fully intact, pure soul |
+| 1–99 | Partially corrupted soul |
 | 0 | No soul — the creature is a monster |
 
-Soundness tracks how much of the original soul remains. As it decreases, attributes are lost, divine connection weakens, and demonic tendencies emerge to fill the void.
+Soundness tracks how pure the soul remains. As it decreases, the soul is corrupted: its divine connection weakens and demonic tendencies emerge to fill the void.
 
 ---
 
@@ -38,17 +40,17 @@ Most creatures occupy the middle of the spectrum. Their soul soundness is modera
 
 ### Sinners
 
-Creatures who have committed cardinal sins carry damaged souls. Their connection to the gods is partial and weakened. As demonic attributes begin to fill the gaps left by lost soul attributes, sinners gain access to abilities unavailable to the faithful — but at a cost to judgment, morality, and divine access.
+Creatures who have committed cardinal sins carry corrupted souls. Their connection to the gods is partial and weakened. As corruption sets in and demonic tendencies emerge, sinners gain access to abilities unavailable to the faithful — but at a cost to their morality and divine access.
 
 ### Monsters
 
-Monsters have a soul soundness of exactly 0. They have no connection to gods whatsoever. Most monsters were once creatures who deliberately destroyed their own souls in pursuit of absolute freedom from divine control. The cost is total: without a soul, there are no personality attributes, no moral instincts, no capacity for independent thought. Monsters act on instinct alone. They cannot be controlled by any god.
+Monsters have a soul soundness of zero. They have no connection to gods whatsoever. Most monsters were once creatures who deliberately destroyed their own souls in pursuit of absolute freedom from divine control. The cost is total: with the soul gone, nothing remains to carry a self. Monsters act on instinct alone, and they cannot be controlled by any god.
 
 ---
 
 ## Cardinal Sins
 
-Cardinal sins damage the soul. Each act of sin reduces soul soundness and removes some of its attributes. The sins are:
+Cardinal sins corrupt the soul. Each act of sin reduces its soundness. The sins are:
 
 1. **Murder** — killing a living creature that possesses a soul.
 2. **Lying** — deliberately deceiving another creature.
@@ -106,12 +108,6 @@ A god can only control a creature if it has a soul. When a god takes a creature,
 - **Weak soul** — a poorer conduit. Magical abilities become diminished or inaccessible, and the connection is rougher.
 
 The precise mechanics of how a weak-souled vessel differs from a strong-souled one remain an open design question. See [world/gods.md](world/gods.md) for the full account of divine control.
-
----
-
-## Some Objects Have Souls
-
-Not all souls belong to living creatures. Some objects also carry souls. A soul-bearing object can be controlled by gods and cannot be permanently morphed (permanent morphing is a sin). The presence of a soul in an object is not always obvious.
 
 ---
 
