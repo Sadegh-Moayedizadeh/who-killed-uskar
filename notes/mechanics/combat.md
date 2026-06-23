@@ -18,18 +18,16 @@ The primary offensive weapon. Deals damage on successful hits.
 - **Magical swords:** Damage scales with soul soundness. The higher the soul, the sharper and more effective.
 - **Demonic swords:** Damage scales with soul corruption. The lower the soul, the more potent.
 
-**Example — Blade of the Zealous:** Dull and ineffective in a sinner's hands. Razor-sharp for a creature with a pure soul. See [mechanics/artifacts.md](mechanics/artifacts.md).
-
-Poison can be applied to a sword to add poison damage on top of base damage.
-
-Strikes are directional: 8 directions of attack. The player must specify direction before pressing the hit button.
+Every sword has two kinds of attack: a **light attack** and a **heavy attack**. The light attack is quick but deals less damage. The heavy attack deals more damage but takes longer to wind up and commit, leaving the attacker exposed for a longer window. Strikes always go forward — the player faces the target and attacks; there is no directional aiming.
 
 ### Shields
 
-The primary defensive tool, used for blocking and parrying.
+The primary defensive tool. A shield has two moves: **block** and **parry**.
 
-- **Physical shields:** Fixed defensive value.
-- **Magical and demonic shields:** Follow the same soul scaling rules as their sword counterparts.
+- **Block** holds the shield up against an incoming hit, reducing the damage that gets through to a certain percentage. It does not stop the hit entirely.
+- **Parry** deflects an incoming hit entirely — no damage gets through — and leaves the attacker open for a certain amount of time, creating a window to counterattack.
+
+Shields come in physical, magical, and demonic classes, following the same soul scaling rules as their sword counterparts.
 
 ---
 
@@ -37,7 +35,9 @@ The primary defensive tool, used for blocking and parrying.
 
 ### Hit
 
-Costs stamina. The player specifies one of 8 directions, then presses the hit button.
+Costs stamina. The player faces the target and presses either the light or heavy attack; strikes always go forward.
+
+A heavy attack costs more stamina and takes longer to land than a light attack, but deals more damage. While committing to a heavy attack, the attacker is exposed for longer.
 
 If a hit is parried by the opponent, the attacker's guard opens for a brief window, leaving them vulnerable to a counterattack.
 
@@ -45,16 +45,15 @@ If a hit is parried by the opponent, the attacker's guard opens for a brief wind
 
 Holding the shield up to absorb an incoming hit.
 
-- Blocks any direction of incoming strike — direction does not matter.
+- Reduces the incoming damage to a certain percentage rather than stopping it entirely. Some damage still gets through.
 - Costs significantly more stamina than other moves.
-- A successful block negates or greatly reduces damage.
 
 ### Parry
 
 A precise defensive move executed within a very short time window.
 
-- Direction matters — the parry direction must match the incoming hit's direction.
-- A successful parry opens the attacker's guard.
+- A successful parry deflects the incoming hit entirely — the defender takes no damage.
+- It also leaves the attacker open for a certain amount of time, giving the defender a window to counterattack.
 - Costs less stamina than blocking.
 
 ### Fake
@@ -105,12 +104,10 @@ In combat, soul soundness has the following effects:
 
 ### Chained Monsters (Room 6)
 
-Former mages who destroyed their souls. Slow and predictable attack patterns.
-
-Weak to the Training Blade. Useful encounters for practicing parry timing.
+Former mages who destroyed their souls. Slow and predictable attack patterns make them ideal practice targets for the player to drill the Training Blade and parry timing.
 
 ### Armored Husk (Room 9)
 
-Completely immune to physical and demonic damage.
+An animated suit of plate with no creature inside — pure ambient magic in the shape of a soldier, and enormously durable. Physical and demonic weapons land, but deal so little damage against it that they can never realistically wear it down; the player exhausts their stamina before making a dent.
 
-Can only be damaged by magical weapons, specifically the Blade of the Zealous. This encounter forces the player to engage with soul purity mechanics. See [mechanics/artifacts.md](mechanics/artifacts.md) for weapon details and [world/souls.md](world/souls.md) for how to raise soul soundness before the encounter.
+Only a magical weapon wielded by a sufficiently pure soul deals enough damage to break it — the Blade of the Zealous in a purified hand. This encounter forces the player to engage with soul purity mechanics. See [mechanics/artifacts.md](mechanics/artifacts.md) for weapon details and [world/souls.md](world/souls.md) for how to raise soul soundness before the encounter.

@@ -46,7 +46,7 @@ A locked door cannot be morphed.
 
 ### Sword
 
-Swords are used to attack creatures in combat. See [mechanics/combat.md](combat.md) for full combat rules.
+Swords are used to attack creatures in combat. Every sword has a light attack (quick, less damage) and a heavy attack (slower to commit, more damage). See [mechanics/combat.md](combat.md) for full combat rules.
 
 - Physical swords deal a fixed amount of damage.
 - Magical swords scale damage with the wielder's soul soundness.
@@ -54,7 +54,7 @@ Swords are used to attack creatures in combat. See [mechanics/combat.md](combat.
 
 ### Shield
 
-Shields are used to block or parry in combat. See [mechanics/combat.md](combat.md) for full combat rules.
+Shields are used to defend in combat with two moves: block (reduces incoming damage to a certain percentage) and parry (deflects a hit entirely and leaves the attacker open). See [mechanics/combat.md](combat.md) for full combat rules.
 
 Shields can be physical, magical, or demonic.
 
