@@ -1,5 +1,7 @@
 # Artifacts
 
+The player can drop any artifact they carry, leaving it at a specific location and time value. A dropped artifact remains where it was left until something or someone moves it, and can be picked up later — by another creature, or by the player in a future vessel.
+
 ## Classes
 
 Artifacts are divided into three classes based on their relationship with soul soundness. If a creature fails to meet the soul constraint of a magical or demonic artifact, that artifact behaves as a physical one.
@@ -16,6 +18,8 @@ A magical artifact's abilities are activated when the using creature's soul soun
 
 A demonic artifact's abilities are activated when the using creature's soul soundness falls below a specified threshold (a less-than constraint). The further the creature's soul soundness is below the threshold, the more effective the artifact's abilities.
 
+Demonic potency is not merely the absence of soul soundness. Darkness in this world is not simply the lack of light — it is a substance with its own character. Every soul has a fixed capacity N. If a soul is pure by an amount p (its soul soundness), the remaining N − p is filled with **demonic energy**. The two always sum to the soul's capacity. A deed that purifies a soul by an amount p raises its soul soundness by p and reduces its demonic energy by the same p; a corrupting deed does the reverse. A demonic artifact draws on this demonic energy, so the more of a creature's capacity is given over to darkness, the more potent the artifact.
+
 ---
 
 ## Kinds
@@ -28,13 +32,25 @@ The relationship between keys and locks is not one-to-one: a single key can open
 
 Keys carry evocative names that reflect their history or origin (e.g., "Silarmousch's Ward Key", "The Pilgrim's Pass").
 
+### Lock
+
+Locks block access to doors, inventories, and other lockable objects. A lock must be acquired together with its corresponding key.
+
+A lock has three optional capabilities, each of which may or may not be present on a given lock:
+
+1. **Access blocking.** Prevents creatures without the correct key from passing through or opening the locked object.
+2. **Spatial lock.** Prevents the locked object from being moved.
+3. **Temporal lock (Chronos Lock).** Binds the locked object to a specific time value T. The object only exists and is accessible at T. At any other time value it is inaccessible, as if it were never there.
+
+A locked door cannot be morphed.
+
 ### Sword
 
 Swords are used to attack creatures in combat. See [mechanics/combat.md](combat.md) for full combat rules.
 
 - Physical swords deal a fixed amount of damage.
 - Magical swords scale damage with the wielder's soul soundness.
-- Demonic swords scale damage with the wielder's soul weakness.
+- Demonic swords scale damage with the wielder's demonic energy.
 
 ### Shield
 
@@ -44,7 +60,7 @@ Shields can be physical, magical, or demonic.
 
 ### Poison
 
-A creature that drinks poison dies. This is one of the ways the player can intentionally kill their current vessel in order to switch to a new one. Poison can also be applied to a sword, increasing its lethality against certain creatures.
+A creature that drinks poison dies. Its only function is to kill the current vessel — one of the ways the player can intentionally end their vessel in order to switch to a new one.
 
 Poisons are rare and difficult to acquire. They are associated with a cult of mass suicide and are not available through ordinary means.
 
@@ -57,18 +73,6 @@ An inventory holds the artifacts a creature carries. It is itself an artifact an
 If a creature is carrying artifacts in their inventory and travels backward in time through a decrement door, all artifacts acquired after the destination time value disappear from the inventory. Each artifact reverts to its last known state at that time value.
 
 A locked inventory prevents other creatures from accessing its contents.
-
-### Lock
-
-Locks block access to doors, inventories, and other lockable objects. A lock must be acquired together with its corresponding key.
-
-A lock has three optional capabilities, each of which may or may not be present on a given lock:
-
-1. **Access blocking.** Prevents creatures without the correct key from passing through or opening the locked object.
-2. **Spatial lock.** Prevents the locked object from being moved.
-3. **Temporal lock (Chronos Lock).** Binds the locked object to a specific time value T. The object only exists and is accessible at T. At any other time value it is inaccessible, as if it were never there.
-
-A locked door cannot be morphed.
 
 ### Note
 
@@ -95,7 +99,7 @@ Magical paintings can also function as long-range communication devices, allowin
 Dolls depict specific creatures, in the same way that paintings depict specific places. A doll shows the state of the depicted creature at the beginning of an integer time value.
 
 - Physical dolls are informational only and have no effect on the depicted creature.
-- Demonic dolls allow a creature with sufficient soul corruption to harm or otherwise affect the depicted creature through its doll. Using a demonic doll in this way is a cardinal sin.
+- Demonic dolls allow a creature with sufficient demonic energy to harm or otherwise affect the depicted creature through its doll. Using a demonic doll in this way is a cardinal sin.
 
 ---
 
