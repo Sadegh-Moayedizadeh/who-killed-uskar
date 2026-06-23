@@ -147,7 +147,9 @@ Placed in Room 4 by Bournache's prior arrangement, carrying the poison nectar. H
 
 ### Effect of Possession
 
-Having an Outer God inside him affects Bol. His thoughts become clearer. His magical abilities amplify. But his mind will slowly deteriorate with each time increment. The possession that elevates him will, over time, consume him.
+When the Outer God takes Bol, the possession is total: Bol loses all will and consciousness for as long as he is held, and he is not released until the vessel dies. The strength and purity of his soul make him an excellent vessel — a clean channel with full access to magic.
+
+> **Open conflict — needs a decision.** This section, and the Thematic Significance below, were written under the older model in which a possessed creature stayed conscious and was gradually changed by the god. The revised model in [world/gods.md](../world/gods.md) makes possession total (no consciousness, no resistance, no release until death). Bol's arc as "ignorant pawn → awakened vessel who is sharpened and broken over time" no longer fits cleanly: a creature with no consciousness during possession cannot experience or visibly drift. Decide how Bol's arc and the free-will theme work under total possession before designing his Act 3–4 scenes.
 
 ### Thematic Significance
 

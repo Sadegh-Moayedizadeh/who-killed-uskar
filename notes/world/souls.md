@@ -100,20 +100,12 @@ Soul soundness determines which parts of the world a creature can interact with.
 
 ## Souls and Divine Control
 
-A god can only control a creature if it has a soul. The relationship between soul soundness and the quality of control is direct:
+A god can only control a creature if it has a soul. When a god takes a creature, possession is total: the creature loses all will and consciousness and cannot act on its own, and it is never released until the vessel dies. Soul soundness shapes how good a vessel the creature makes:
 
-- **Strong soul** — control is easier, more complete, and more responsive. The creature's full abilities remain available to the god.
-- **Weak soul** — control degrades. Magical abilities become inaccessible. There is a delay between the god's commands and the creature's execution of them.
+- **Strong soul** — a clean channel for the god's will, with full access to magical abilities.
+- **Weak soul** — a poorer conduit. Magical abilities become diminished or inaccessible, and the connection is rougher.
 
-See [world/gods.md](world/gods.md) for the full mechanics of divine control.
-
-### Mind Degradation Under Control
-
-While a god controls a creature, the creature's mind deteriorates with each increment of time. Mind is separate from soul — it is the creature's own cognitive faculty, not the divine link itself.
-
-- If the creature's mind reaches 0, it becomes unresponsive and confused. It is no longer useful to the god.
-- A god may switch vessels when the current vessel dies, or when its mind fully deteriorates.
-- Decrementing time reverses mind degradation — but going back in time and branching the timeline is itself a cardinal sin. See [world/time.md](world/time.md).
+The precise mechanics of how a weak-souled vessel differs from a strong-souled one remain an open design question. See [world/gods.md](world/gods.md) for the full account of divine control.
 
 ---
 

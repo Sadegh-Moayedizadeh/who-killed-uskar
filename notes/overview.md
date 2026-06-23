@@ -26,9 +26,9 @@ The game world is populated by creatures who are aware, to varying degrees, that
 
 The player is an Outer God. They do not exist inside the world. They inhabit creatures — called vessels — and act through them.
 
-At any moment the player controls exactly one vessel. If that vessel dies or loses its mind, the player must transfer control to another creature. A creature can be controlled only if it has a soul and has been encountered (is known to the player). See [gameplay.md](gameplay.md) for vessel transfer rules.
+At any moment the player controls exactly one vessel. A creature can be controlled only if it has a soul and has been encountered (is known to the player). See [gameplay.md](gameplay.md) for vessel transfer rules.
 
-Being controlled by a god alters a creature. It may shift their thoughts or incentives. The creature's mind deteriorates the longer it is controlled: each unit of time that passes while under god-control costs the creature one unit of mental integrity. When mental integrity reaches zero the creature is no longer a viable vessel.
+Possession is total. When a god takes a creature, the creature loses all will and consciousness — it cannot act on its own and is never released until the vessel dies. Only then does the player transfer control to another known, soul-bearing creature.
 
 ## Time
 
@@ -67,7 +67,7 @@ Soul strength determines which doors are visible. Demonic doors are visible only
 
 ## Magic
 
-Magic is an entity in this world, not a skill. To ask Magic to do something, a creature must have a soul. The stronger the soul, the stronger and more reliable the magical effect. A creature with a weak soul can still invoke Magic but with diminished results and delayed execution. A creature with no soul cannot invoke Magic at all.
+Magic is not a skill. It is a power the Outer Gods placed into the world — a current woven into reality so that creatures with pure souls hold an advantage over those who do not. To draw on Magic, a creature must have a soul. The stronger and purer the soul, the stronger and more reliable the magical effect. A creature with a weak soul can still draw on Magic but with diminished results. A creature with no soul cannot touch it at all.
 
 Magical weapons require a soul to wield. A vessel controlled by a god with weak soul can only deal physical damage.
 

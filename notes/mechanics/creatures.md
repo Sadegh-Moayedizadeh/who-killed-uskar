@@ -10,7 +10,7 @@ A creature is composed of three things:
 
 1. **A body** — its physical presence in a room. The body can be harmed, killed, and (after death) left behind. A body holds an [inventory](artifacts.md) of artifacts.
 2. **A soul** — its metaphysical link to the gods and the seat of its attributes. Because a creature contains a soul, it **cannot be morphed** (see [doors.md](doors.md) and [artifacts.md](artifacts.md)) and it **can be possessed** by a god.
-3. **A mind** — its own cognitive faculty, separate from the soul. The mind is what divine possession wears down over time. See [world/gods.md](world/gods.md).
+3. **A mind** — its own cognitive faculty, separate from the soul. During divine possession the mind falls silent: the god takes over entirely and the creature has no will of its own. See [world/gods.md](world/gods.md).
 
 A creature is distinct from a **soul-bearing object**. Some objects also carry souls and, like creatures, cannot be morphed and can be controlled by gods — but they have no body or mind of their own. The presence of a soul in an object is not always obvious. See [world/souls.md](world/souls.md).
 
@@ -48,7 +48,7 @@ A creature is tracked through several values. The first two are the soul axis ab
 |----------------|-----------------|-----------|
 | Soul soundness | 0–100; purity of the soul, governs alignment, magic, and door/artifact access | [world/souls.md](world/souls.md) |
 | Demonic energy | capacity − soundness; powers demonic weapons, dolls, and doors | [artifacts.md](artifacts.md) |
-| Mind | the creature's own cognition; degrades under divine control, reaches 0 → unusable as a vessel | [world/gods.md](world/gods.md) |
+| Mind | the creature's own cognition; goes dormant while a god possesses the vessel | [world/gods.md](world/gods.md) |
 | Health | reaches 0 → the creature dies | [combat.md](combat.md) |
 | Stamina | spent on every combat move; scales with health | [combat.md](combat.md) |
 
@@ -58,7 +58,7 @@ Soul soundness also feeds combat directly: it raises magical-weapon damage and l
 
 ## Possession
 
-Because a creature has a soul, it is a candidate for possession by the Outer God (the player). Two hard constraints apply: the god must **know the creature exists**, and the creature **must have a soul** (so monsters are never candidates). While possessed, the creature keeps its own personality, memories, and abilities — the god rides alongside and steers — but its mind degrades each time increment, faster the weaker the soul. When a vessel dies or its mind is spent, the god must choose a new known, soul-bearing creature. Full mechanics: [world/gods.md](world/gods.md).
+Because a creature has a soul, it is a candidate for possession by the Outer God (the player). Two hard constraints apply: the god must **know the creature exists**, and the creature **must have a soul** (so monsters are never candidates). Possession is total: the creature loses all will and consciousness, cannot act on its own, and is never released until the vessel dies — only then does the god choose a new known, soul-bearing creature. A strong, pure soul makes a cleaner vessel with full access to magic; a weak soul is a rougher conduit with diminished or no magic, though the precise difference is an open design question. Full mechanics: [world/gods.md](world/gods.md).
 
 ---
 

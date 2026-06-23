@@ -33,9 +33,9 @@ What needs work:
 The question is present in the narrative document as a confirmed recurring theme, and the philosophical framing is laid out. The mechanics that push against freedom are described. But the game does not yet have specific scenes or choice points that make this question personal and unresolvable in the moment.
 
 What needs work:
-- Design at least two or three scenes in Act 4 where the player faces a genuine choice between more freedom (more sin, more demonic ability, more independence from the divine hierarchy) and a constrained path that keeps them connected to the divine. These scenes need to make freedom feel genuinely appealing, not just abstractly tempting.
+- Design at least two or three scenes in Act 4 where the player faces a genuine choice between more freedom (more sin, more demonic ability, more independence from the divine) and a constrained path that keeps them connected to the divine. These scenes need to make freedom feel genuinely appealing, not just abstractly tempting.
 - The book "The Joy of Divine Possession" and the Gounargoun mythology represent the divine side of this question. What represents the freedom side compellingly and without caricature? There should be a character or event that makes the player want what the monsters have, even knowing the cost.
-- The Outer God themselves should eventually confront this question. The player is a god — but also constrained by higher gods. Is the Outer God free? Does the Outer God want to be?
+- The Outer God themselves should eventually confront this question. The player is a god — but still constrained: bound to a vessel until it dies, blind to what lies outside time, and perhaps not the only Outer God reaching into this world. Is the Outer God free? Does the Outer God want to be?
 
 ---
 
@@ -75,7 +75,11 @@ What needs work:
 
 ## Being Controlled by a God Changes You — Specific Moments and Consequences
 
-The general principle is documented in world/gods.md (mind degradation, soul interaction). Bol's experience of possession is noted in story/characters.md. But the qualitative experience of being changed — the thoughts that develop, the instincts that shift, the personality drift — has no specific scene design.
+The general principle is documented in world/gods.md (possession, soul interaction). Bol's experience of possession is noted in story/characters.md.
+
+> **Note — revisit against the revised possession model.** gods.md now states that possession is total: a possessed creature loses all will and consciousness and cannot act on its own. That contradicts the premises below (gradual personality drift, the creature experiencing the change, moments of resistance). Before designing these scenes, decide how the free-will theme survives total possession — e.g. whether the "change" lands on the creature only at the moment of being taken, between possessions, or on those who merely witness a possessed creature. See the open question flagged in the gods.md rework.
+
+But the qualitative experience of being changed — the thoughts that develop, the instincts that shift, the personality drift — has no specific scene design.
 
 What needs work:
 - What specifically changes in Bol over the course of Act 3 and into Act 4 as a result of carrying the Outer God? There should be visible changes in how Sekmidorgue talks to him, in how he talks to other mages, in what he says unprompted.
@@ -153,5 +157,5 @@ story/narrative.md presents three candidate answers, all marked TBD. The central
 What needs work:
 - This is the most consequential open question. Acts 4 and 5 cannot be written without at least a provisional answer to design toward.
 - The three candidates (Silarmousch, Uskar themselves, the Outer God through time travel) are not mutually exclusive. The game may want all three to be partially true, or it may want one to be definitively correct.
-- The answer must be one that requires the full suite of knowledge the game has taught — soul mechanics, time mechanics, divine hierarchy, Chronos Locks, magical paintings, notes as world-objects — to understand. It should not be solvable by someone who skipped the tutorial.
+- The answer must be one that requires the full suite of knowledge the game has taught — soul mechanics, time mechanics, the nature of the gods, Chronos Locks, magical paintings, notes as world-objects — to understand. It should not be solvable by someone who skipped the tutorial.
 - The answer must already be present in Room 1. This is confirmed. The design work is to determine what in Room 1 encodes the answer — which painting, which object, which feature of the room — and then to make sure that feature is present from the first visit without giving the answer away before the player has the context to read it.

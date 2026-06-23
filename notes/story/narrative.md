@@ -126,7 +126,7 @@ The wizard who embraces divine control is described in the library texts as expe
 
 The sinner who destroys their soul gains abilities unavailable to the pure: demonic weapons, demonic doors, freedoms of movement and perception that divine creatures cannot access. But they are losing themselves in the same process. What they gain in capability they lose in identity.
 
-The player is not outside this tension. The Outer God controls vessels that deteriorate the longer they are possessed. The god is constrained: they cannot act without a vessel, cannot possess what they have not encountered, cannot perceive what exists outside of time. The god who seems to hold power over creatures is also held by the structure of time, by the hierarchy of gods above them, and by the fundamental nature of divine perception. The game does not let the player feel like an unconstrained sovereign. The player is also being controlled — by what they do not yet know.
+The player is not outside this tension. Once the Outer God takes a vessel, it is bound to that vessel until the vessel dies. The god is constrained: they cannot act without a vessel, cannot possess what they have not encountered, cannot perceive what exists outside of time. The god who seems to hold power over creatures is also held by the structure of time and by the fundamental nature of divine perception. The game does not let the player feel like an unconstrained sovereign. The player is also being controlled — by what they do not yet know.
 
 ### The Outer God's Constraints **[CONFIRMED]**
 
@@ -134,7 +134,7 @@ The Outer God is powerful relative to creatures but constrained in ways that mir
 
 - They can only act through a vessel. Without a vessel, they have no presence in the world.
 - They can only possess creatures they have encountered. Unknown creatures are beyond their reach.
-- Each vessel degrades under possession: its mind deteriorates with each time increment spent under divine control. The player is always burning through the very resource they depend on.
+- Once a god takes a vessel, it is bound to that vessel until the vessel dies. Committing to a creature is a lasting choice, not a momentary one — the god cannot freely abandon it.
 - They cannot perceive anything outside the bounds of time. The game's deepest form of freedom — existing outside time entirely — is a blind spot for the Outer God. They cannot see it, model it, or reach into it.
 
 This last constraint is not incidental. It is the game's central revelation.
@@ -175,7 +175,7 @@ The goal: creatures who are fully understood by a god — whose positions in the
 
 Uskar may not have been a victim. Uskar may have been the initiating actor in a project of liberation — for themselves, for other creatures, and possibly for the Outer God as well. The murder is then not a murder in the ordinary sense. It is the first move in a philosophical proof.
 
-**The game's ultimate message:** Control is an illusion on both sides. Gods control creatures, but gods are also controlled — by higher gods, by the structure of time, by their own nature as temporal perceivers. Freedom is not about breaking chains within the framework. It is about transcending the framework entirely. The creatures who achieve true freedom are not visible to gods. They do not appear in the game as characters. They are the absence at the center of the mystery.
+**The game's ultimate message:** Control is an illusion on both sides. Gods control creatures, but gods are also bound — to the vessels they take until those vessels die, by the structure of time, by their own nature as temporal perceivers. Freedom is not about breaking chains within the framework. It is about transcending the framework entirely. The creatures who achieve true freedom are not visible to gods. They do not appear in the game as characters. They are the absence at the center of the mystery.
 
 ---
 
@@ -218,7 +218,7 @@ After all five rooms are completed and the Purified Chalice is returned to Sekmi
 The player, as Bol, exits the tutorial phase and begins active investigation of Uskar's death. This act is not yet designed in detail. What is established as the intended content:
 
 - The player encounters Silarmousch directly. The nature of this encounter — whether as a confrontation, a dialogue, an evasion, or some combination — is TBD.
-- The player encounters other mages with partial knowledge of Uskar, the events before the game began, and the hierarchy of gods.
+- The player encounters other mages with partial knowledge of Uskar, the events before the game began, and the nature of the gods.
 - Time-travel puzzles become primary investigation tools. The player uses their accumulated knowledge of the time tree to visit moments before the game began or to observe past events that cast light on Uskar's death.
 - Moral dilemmas accumulate. Each sin committed to advance the investigation damages the player's ability to see divine paths forward. Each purification act bought through monster-slaying or received sacrifice costs time and resources. The investigation is itself a test of the philosophical content the tutorial taught.
 - The three candidate answers for "who killed Uskar" are introduced, developed, and (partially) undermined over the course of this act.
@@ -260,7 +260,7 @@ These are not yet resolved and must be addressed before Acts 4 and 5 can be writ
 
 - Which of the three candidate answers for Uskar's death is correct (or how they combine)?
 - What are Silarmousch's full motives?
-- Who else is in the divine hierarchy above the Outer God, and what do they want?
+- Are there other Outer Gods acting on this world, and what do they want?
 - What was Uskar's nature specifically — god, mage, creature, or something else?
 - What happens on the demonic path continuation through Door 6? What is in Room TBD beyond it?
 - What does Door 4 in Room 2 (the hidden divine door visible only to a very pure soul) lead to?

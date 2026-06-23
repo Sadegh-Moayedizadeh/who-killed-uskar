@@ -23,7 +23,7 @@ Books marked **[full text]** have a complete written text in this directory. All
 ---
 
 ### The Existence of Gods
-**Description:** An authoritative account of the divine hierarchy, the levels of gods, and the nature of magic as a force emanating from divine beings.
+**Description:** An authoritative account of the gods, the nature of possession, and the origin of magic as a power the Outer Gods placed into the world.
 **Relevance:** Establishes the cosmological rules of the world — who the gods are, what they want, and why souls are subject to their influence. Relevant to understanding possession, sacrifice, and sin.
 **Status:** Stub
 

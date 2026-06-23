@@ -33,7 +33,7 @@ The player has three options when `Bournache` appears:
 
 1. **"On the Nature of Doors"** — Explains the door system: types of doors, soul constraints governing access, and how doors interact with time.
 2. **"The Subjectivity of Time"** — Explains discrete time, the time-tree, and how time perception is relative to the creature experiencing it.
-3. **"The Existence of Gods"** — Explains the divine hierarchy, the nature of gods, and their levels of power.
+3. **"The Existence of Gods"** — Explains the nature of the gods and how their power touches the world.
 4. **"On Free Will"** — A philosophical treatise questioning whether creatures have genuine free will if gods exert control over them.
 5. **"The Joy of Divine Possession"** — Written by a willing mage. Describes the bliss of being fully surrendered to a god's control.
 6. **"The Adventures of Gounargoun"** — A mythological story of a humble creature who surrendered fully to divine control, performed great deeds, and achieved nirvana. See [books/the_adventures_of_gounargoun.md](../books/the_adventures_of_gounargoun.md).

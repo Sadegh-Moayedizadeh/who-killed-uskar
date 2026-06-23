@@ -1,4 +1,4 @@
-# Gods and the Divine Hierarchy
+# Gods and the Divine
 
 ## Overview
 
@@ -6,11 +6,13 @@ The divine order in this world is not distant mythology — it is the operating 
 
 ---
 
-## The Outer God
+## The Outer Gods
 
 The player is an Outer God: a divine being who exists outside the game world and exerts will upon it by inhabiting a vessel within it.
 
-This is not revealed at the start. Rooms 1 through 3 present the experience as ordinary survival — a creature trying to escape, solve problems, stay alive. The revelation comes in Room 4 ("Who am I?"), when the nature of the player's relationship to their vessel becomes undeniable.
+We — the creators of this game — are Outer Gods too. We act on the world from beyond it exactly as the player does. To the creatures living inside the world there is no obvious distinction between one Outer God and another: a will reaching in from outside is simply that, whatever its source.
+
+The player's divine nature is not revealed at the start. Rooms 1 through 3 present the experience as ordinary survival — a creature trying to escape, solve problems, stay alive. The revelation comes in Room 4 ("Who am I?"), when the nature of the player's relationship to their vessel becomes undeniable.
 
 ### What Makes a God "Outer"
 
@@ -29,67 +31,35 @@ A god cannot possess what it does not know about. A god cannot possess what has 
 
 ---
 
-## Levels of Gods
-
-Gods are hierarchical. The Outer God occupying the player's position is one tier in a larger structure. There are gods above the Outer God — beings of greater scope, older reach, wider perception.
-
-Different gods have different magnitudes of power:
-
-- Some can alter weather across a region.
-- Some created entire universes.
-- Some can only nudge a mind in a quiet moment.
-
-The Outer God in this story sits somewhere in the middle of this hierarchy: powerful enough to possess creatures, channel magic, and move through time in limited ways, but not the apex of the divine order.
-
-This matters for the story. Uskar's death did not happen in a vacuum. Other gods have interests. The investigation into Uskar's killer is also, eventually, an investigation into which tier of the hierarchy authorized or caused it.
-
----
-
 ## Magic and the Divine
 
-Magic in this world is not a natural force in the way that gravity is. It is divine in origin, always. Every magical act is a draw on some god's power, routed through a creature with sufficient soul strength to carry the current.
+Magic in this world is not a natural force in the way that gravity is. It is divine in origin. Magic is a power the Outer Gods placed into the world — a current woven into reality so that creatures with pure souls hold an advantage over those who do not.
 
-### Magic as Request
+A magical act is therefore not a draw on any particular god's power, nor a request addressed to a specific deity. It is the use of this divine current, which the world makes available in proportion to the purity of the soul reaching for it. A strong, pure soul can carry the current and shape it into magic. A weak or corroded soul reaches and finds little. A soulless creature — a monster — cannot touch it at all.
 
-A magical act is a request made to the divine order. The creature making the request needs a soul strong enough to be heard. A weak soul produces a weak or distorted response. A soulless creature — a monster — produces no response at all. It cannot even frame the request.
+This is why magic is inseparable from the soul system (see [world/souls.md](world/souls.md)). The purer the soul, the greater the magical benefit — by the design of the Outer Gods.
 
-This is why magic is inseparable from the soul system (see [world/souls.md](world/souls.md)).
+### Wizards and Mages
 
-### Wizards
-
-Wizards are the creatures most deeply connected to the divine. Their souls are strong and attuned. They are, in a sense, preferred vessels — the divine finds it easy to move through them. Wizards may not consciously know they are instruments of gods. Most do not. But they feel the connection as inspiration, as power, as a sense that the world responds to their intent.
+A wizard and a mage are the same thing: a creature that has purified its soul to the highest degree possible. Their souls are strong and attuned, so the divine current flows through them most easily. They are, in a sense, preferred vessels — the divine moves through them with little resistance. Such creatures may not consciously know they are instruments of the divine. Most do not. But they feel the connection as inspiration, as power, as a sense that the world responds to their intent.
 
 ---
 
-## Possession Mechanics
+## Possession
 
-When the Outer God takes a vessel, the creature does not become the god. The creature's personality, memories, and physical capabilities remain. The god rides alongside, steering.
+When an Outer God takes a vessel, the creature does not share control with the god — it surrenders control entirely. A possessed creature loses all will and all consciousness. It cannot act on its own, form its own intentions, or resist. From the moment of possession onward, every action the body takes is the god's action.
 
-But the creature's mind is not built to carry this weight indefinitely.
+This cannot be undone. A creature, once taken, is never released; the god remains until the vessel dies. There is no walking away from a vessel and leaving it to resume its life.
 
-### Mind Degradation
+### Strong-Souled and Weak-Souled Vessels
 
-With each time increment spent under divine control, the vessel's mind degrades. The creature's coherence slowly erodes. At zero, the god can no longer effectively direct it — commands become noise, actions become unpredictable.
+A strong, pure soul makes the better vessel: a clean channel for the god's will, with full access to magic. A weak soul is a poorer conduit — magic is diminished or unavailable, and the connection is rougher.
 
-The rate of degradation depends on soul strength.
-
-### Strong-Souled Vessels
-
-- Commands execute immediately and accurately.
-- Full access to magical abilities.
-- Minimal degradation rate.
-- The god and creature work in alignment.
-
-### Weak-Souled Vessels
-
-- Commands execute with delay.
-- Only physical and demonic abilities are accessible — no magic.
-- Faster degradation rate.
-- The god is fighting the vessel as much as directing it.
+How exactly divine control should differ between a strong-souled creature and a weak-souled one — and how a creature with a weak soul possessed by an Outer God should behave differently from a strong-souled one — remains an open design question, to be settled later.
 
 ### Choosing a New Vessel
 
-When a vessel dies or its mind degrades beyond use, the Outer God must select a new vessel from among known creatures with souls. This makes awareness a strategic resource — the god's options are limited to what the god has encountered and observed.
+When a vessel dies, the Outer God must select a new vessel from among known creatures with souls. This makes awareness a strategic resource — the god's options are limited to what the god has encountered and observed.
 
 See [story/characters.md](story/characters.md) for which characters in the story have souls and are therefore candidates for possession.
 
@@ -97,19 +67,21 @@ See [story/characters.md](story/characters.md) for which characters in the story
 
 ## The Soul as Divine Link
 
-A creature's soul is its channel to the gods. The soul is what makes the creature legible to divine perception — without one, the creature is invisible to gods, inaccessible to magic, outside the hierarchy entirely.
+A creature's soul is its channel to the gods. The soul is what makes the creature legible to divine perception — without one, the creature is invisible to gods, inaccessible to magic, outside the divine order entirely.
 
 Soul strength is not fixed. It can be weakened deliberately through cardinal sins, which corrode the soul's structure over time. A creature that weakens its soul enough severs its connection to divine influence. Complete severance produces a monster: a being with no soul, no divine access, and no possibility of possession.
 
 For full mechanics of soul strength and degradation, see [world/souls.md](world/souls.md).
 
-### True Freedom
+### Freedom from the Gods
 
-Severance from gods via soullessness is one form of freedom — but it is brutal and irreversible.
+There are a few ways a creature can escape the reach of the gods, none of them easy or pleasant.
 
-There is another form: existing outside of time entirely. A being outside of time is imperceptible to all gods, regardless of soul strength. Gods perceive through time. Remove the time axis and the being simply cannot be found.
+**Soullessness.** Severance from gods by destroying the soul is one form of freedom — but it is brutal and irreversible, and it costs the creature its mind along with its divine link.
 
-This is the deepest freedom in the world's cosmology, and it is almost impossibly difficult to achieve.
+**Existing outside time.** A being outside of time entirely is imperceptible to all gods, regardless of soul strength. Gods perceive through time; remove the time axis and the being simply cannot be found. This is the deepest freedom in the world's cosmology, and it is almost impossibly difficult to achieve.
+
+**Solitude.** A god can only possess a creature it is aware of, and a god becomes aware of a creature by observing it. A creature that lives in complete solitude — out of sight, away from anywhere a god might watch — can avoid being discovered, and so avoid being taken. This path requires neither destroying the soul nor escaping time, but it demands a life of isolation and concealment that no creature finds comfortable.
 
 ---
 
