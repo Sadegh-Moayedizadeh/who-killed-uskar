@@ -47,8 +47,8 @@ Visibility can be gated by soul thresholds — a door may require soul soundness
 Each door produces exactly one of three time effects when a creature passes through it:
 
 1. **No change (0)**: Time remains the same on the other side.
-2. **Increment (+1)**: Time advances by one unit. This creates a new child node in the time-tree.
-3. **Decrement (-1)**: Time steps back by one unit. If the creature subsequently moves forward from that earlier point, a new branch is created rather than returning to the original timeline.
+2. **Increment (+1)**: Time advances by one unit, into the existing child node in the time-tree — or into a new branch if the world arrives in a differing state.
+3. **Decrement (-1)**: Time steps back by one unit. If the creature subsequently moves forward from that earlier point, it re-enters the same node when the resulting state matches, or forks a new branch when the state differs. Because the world is deterministic, repeating the identical actions returns to the original timeline rather than branching.
 
 The time effect is fixed as a property of the door, not a choice made at the moment of passage. See [world/time.md](world/time.md) for the structure of the time-tree and branching behavior.
 

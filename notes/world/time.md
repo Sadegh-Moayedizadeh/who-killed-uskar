@@ -2,7 +2,7 @@
 
 ## Fundamentals
 
-Time in this world is discrete and integer-valued. It starts at T=0 when the game begins.
+Time in this world is discrete and integer-valued. T=0 is the moment the entire world comes into being — the origin of everything. The game itself does not begin at T=0: play starts at a later time value, whose exact figure will be fixed in a future design. From the player's perspective, the world already has a history behind it when control begins.
 
 Time does not progress automatically. It only changes when a creature passes through a door that affects time. While a creature is inside a room, time is frozen from the outside world's perspective. No other time-based events occur inside a time instance; they are already "set" at the start of each time value.
 
@@ -11,33 +11,41 @@ Time does not progress automatically. It only changes when a creature passes thr
 Time is modeled as a directed tree (graph). Each node represents one integer time value and contains the full state of the world at that point.
 
 - Each node has exactly one parent (the preceding time value) and can have multiple children (future branches).
-- When a creature passes through a time-incrementing door, a new child node is created.
-- When a creature goes back in time (via a decrementing door), it moves to the parent node. If the creature then moves forward again, a new child branch is created. The old branch is permanently unreachable.
+- When a creature passes through a time-incrementing door for the first time at that point, a child node is created to hold the resulting state.
+- When a creature goes back in time (via a decrementing door), it moves to the parent node. Moving forward again does **not** automatically create a new branch — see [Branching Time](#branching-time) below. It only branches if the world arrives at a state that differs from the state that already exists at that future time value.
 - A creature can only go back by one time increment at a time.
 
 ## Branching Time
 
 Branching — splitting the timeline into a new branch — is a cardinal sin. It damages the soul of the creature responsible. See [world/souls.md](world/souls.md) for how soul damage is tracked and manifested.
 
-New branches can have different world states from the branch they diverged from: different artifact positions, different creature locations, and duplications.
+Crucially, **going back in time is not itself a sin, and does not by itself branch the timeline.** Every action in the world is deterministic: a given world state plus a given set of actions always produces the same next state. So if a creature steps back from time t1 to t0 and then performs the exact same set of actions and steps forward again, the world arrives at t1 in precisely the state it was already in. No new branch is created — the creature simply re-enters the existing t1 node.
+
+A branch is created only when a creature arrives at a time value in a state that **differs** from the state already recorded there. The difference is what forks the tree, not the act of travelling. New branches can therefore carry different world states from the branch they diverged from: different artifact positions, different creature locations, and duplications. Producing such a divergence by travelling backward is what counts as the sin of splitting time.
 
 ### Duplication
 
-If a creature travels back in time and then forward again on a new branch, it creates a second copy of itself in the new timeline. The original version of the creature remains in the abandoned branch; the new branch contains a fresh instance of that creature. These two instances are separate entities and do not share state.
+Duplication is one way a returning creature can force a divergent state — and therefore a branch.
+
+If a creature travels back to a past time but arrives in a **different place** than it originally occupied at that time, the original instance still exists where it was, and the arriving creature becomes a second, separate instance of itself. Both instances are now real, distinct entities that do not share state. This populates the world with a new copy of the creature — a way to expand the world and increase its population — but because it diverges the state and branches time, it is a sin.
 
 The entire world was created this way: a primordial creator morphed artifacts and creatures, went back in time, and created multiple instances of reality.
 
 ## Time and Inventories
 
-If a creature carries artifacts and passes through a time-decrementing door:
+A creature may carry artifacts backward through a time-decrementing door, and those artifacts arrive in the past along with it:
 
-- The artifacts disappear from the creature's inventory upon arrival in the past.
-- The artifacts belong to the future time value they came from, not the past one.
-- This rule prevents duplication exploits via carrying items backward.
+- The artifacts remain in the creature's inventory upon arrival in the past.
+- The copy of those artifacts that originally belonged to the past time value still exists there. The world now holds two of each carried artifact.
+- This is a deliberate way to duplicate items and expand the world.
+
+Because the duplicated artifacts make the past state differ from the state already recorded at that time value, carrying items backward forces the timeline to branch — and so it is the sin of splitting time. The expanded inventory is the reward; the soul damage is the cost.
 
 ### Chronos Locks
 
 Artifacts locked with a Chronos Lock are bound to a specific time value. They are only accessible when the world is at that exact time value. In all other time values, those artifacts are inaccessible — as if they do not exist.
+
+A Chronos Lock also anchors its artifact against time travel. While a creature carries a Chronos-locked artifact, it cannot pass through any door that increments or decrements time. To use such a door, the creature must first drop the locked artifact and leave it behind; it may then travel freely. (Doors with no time effect are unaffected.)
 
 ## Door-Time Interactions
 
@@ -45,8 +53,8 @@ Doors are the sole mechanism by which time changes. All doors are inherently mag
 
 | Door Type | Effect on Time | Tree Effect |
 |---|---|---|
-| Incrementing (+1) | Advances time by one | Creates a new child node |
-| Decrementing (-1) | Retreats time by one | Returns to parent node; next forward move creates a new branch |
+| Incrementing (+1) | Advances time by one | Enters the existing child node, or forks a new branch if the resulting state differs |
+| Decrementing (-1) | Retreats time by one | Returns to the parent node; a later forward move re-enters the same node if its state matches, or branches if it differs |
 | Neutral (±0) | No change | No new node |
 
 ## Perception of Time
