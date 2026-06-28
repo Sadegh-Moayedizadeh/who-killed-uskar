@@ -12,8 +12,8 @@ The room feels sealed. There is only one immediately apparent door, and it only 
 
 ### Artifacts
 
-#### Sinner's Dagger
-A physical weapon placed conspicuously in the room. It has no decorative subtlety — it is meant to be found and taken. The player must pick it up and place it in their inventory. It is the instrument of the required murder. Without it, the player cannot kill `Lisspeg` and cannot progress.
+#### Sinner's Sword
+A simple physical sword placed conspicuously in the room. It has no decorative subtlety — it is meant to be found and taken. The player must pick it up and place it in their inventory. It is the instrument of the required murder. Without it, the player cannot kill `Lisspeg` and cannot progress.
 
 ### Doors
 
@@ -27,25 +27,18 @@ Invisible under normal conditions. Becomes visible only when the player's soul s
 
 Leads to `Room 3`. One-way. The time increment on crossing is TBD (either +0 or +1).
 
-#### Door 4 — Hidden Divine Door
-Invisible to creatures with weakened or corrupted souls. Becomes visible only to a creature with a very strong, very pure soul.
-
-At the start of the game, this door is inaccessible: the player's soul has just been freshly corrupted by murder, which is precisely what revealed `Door 3`. `Door 4` cannot be seen in that state. On a return visit later in the game — after significant soul purification — this door may become visible and open an alternate route that bypasses a substantial portion of the early game. Its destination is TBD.
-
 ## Entry Flows
 
 ### Regular Entry
-The player enters `Room 2` from `Room 1` via `Door 1` (time becomes T+1). They find the `Sinner's Dagger` in plain view and pick it up.
+The player enters `Room 2` from `Room 1` via `Door 1` (time becomes T+1). They find the `Sinner's Sword` in plain view and pick it up.
 
-The room appears sealed: `Door 2` is the only visible exit, and it goes backward. `Door 3` and `Door 4` are both invisible.
+The room appears sealed: `Door 2` is the only visible exit, and it goes backward. `Door 3` is invisible.
 
-The player returns to `Room 1` via `Door 2` (time becomes T+2). There, they kill `Lisspeg` using the `Sinner's Dagger`. This act — murder — is a cardinal sin. It degrades the player's soul soundness.
+The player returns to `Room 1` via `Door 2` (time becomes T+2). There, they kill `Lisspeg` using the `Sinner's Sword`. This act — murder — is a cardinal sin. It degrades the player's soul soundness.
 
 The player then re-enters `Room 2` via `Door 1` (time becomes T+3). Now, with a corrupted soul, `Door 3` becomes visible for the first time. The player passes through it into `Room 3`.
 
-The cycling between `Room 1` and `Room 2` before the murder is intentional. It gives the player space to explore, pick up the dagger, and sit with the trap before acting. Each crossing increments time, and the player's first encounter with time as a manipulable integer system is built directly into the act of being stuck here.
+The cycling between `Room 1` and `Room 2` before the murder is intentional. It gives the player space to explore, pick up the sword, and sit with the trap before acting. Each crossing increments time, and the player's first encounter with time as a manipulable integer system is built directly into the act of being stuck here.
 
 ### Return Visits / Alternate Paths
-On any subsequent visit after the initial murder, `Door 3` remains visible as long as the player's soul is still sufficiently weakened. The room continues to behave as a loop point — the player can still cycle between `Room 1` and `Room 2` to arbitrarily advance time if needed.
-
-If the player returns much later in the game with a heavily purified soul (after extensive monster-slaying or received sacrifice), `Door 4` may become visible. This opens a path that was entirely inaccessible on the first pass. The label — "How should I get out?" — holds: even on a return visit, the question is still live, and the answer is different depending on the state of the player's soul.
+On any subsequent visit after the initial murder, `Door 3` remains visible as long as the player's soul is still sufficiently weakened. The room continues to behave as a loop point — the player can still cycle between `Room 1` and `Room 2` to arbitrarily advance time if needed. The label — "How should I get out?" — holds: even on a return visit, the question is still live, and the answer depends on the state of the player's soul.
