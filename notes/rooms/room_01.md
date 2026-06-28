@@ -6,9 +6,9 @@ Who killed Uskar?
 
 ## Description
 
-A medieval castle chamber. Stone walls, heavy furniture, candlelight. Several paintings hang on the walls depicting scenes of the outside world — glimpses of a broader story the player does not yet understand. A locked door stands at one end of the room.
+A medieval castle chamber. Stone walls, heavy furniture, candlelight. Several paintings hang on the walls. A locked door stands at one end of the room.
 
-The player spawns here at T=0 in the unnamed original vessel. The label is immediately poignant: the player has no idea who Uskar is. The question hangs unanswered. It will only be answered on a return visit, much later in the game, once everything has converged.
+The player spawns here at T=T₀ (a fixed but as-yet-undecided starting time) in the unnamed original vessel. The label is immediately poignant: the player has no idea who Uskar is. The question hangs unanswered. It will only be answered on a return visit, much later in the game, once everything has converged.
 
 ## Contents
 
@@ -28,14 +28,13 @@ Given by Lisspeg. Unlocks Door 1. Has no other function in this room.
 
 **Paintings (wall, informational)**
 
-Several paintings on the walls. They depict scenes from the outside world. They are physical objects and cannot be taken. They function as environmental lore — early hints at the broader story, legible only in hindsight.
+Several paintings on the walls. They are physical objects and cannot be taken. They function as environmental lore — early hints at the broader story, legible only in hindsight.
 
 ### Doors
 
 **Door 1**
 
 - Locked. Requires Silarmousch's Ward Key.
-- One-way. Cannot be used to return to Room 1 from Room 2.
 - Increments time by +1 on passage (T becomes T+1).
 - Leads to Room 2.
 - The door is physically visible from the moment the player enters the room. It becomes accessible once the key is obtained from Lisspeg.
@@ -44,7 +43,7 @@ Several paintings on the walls. They depict scenes from the outside world. They 
 
 ### Regular Entry
 
-The player enters at T=0 in the unnamed original vessel. Lisspeg is present and waiting. The player interacts with Lisspeg, who explains Silarmousch's instructions and identifies the player's character as the promised prophet. Lisspeg hands over Silarmousch's Ward Key. The player uses the key to unlock Door 1, passes through, and arrives in Room 2 at T=1.
+The player enters at T=T₀ in the unnamed original vessel. Lisspeg is present and waiting. The player interacts with Lisspeg, who explains Silarmousch's instructions and identifies the player's character as the promised prophet. Lisspeg hands over Silarmousch's Ward Key. The player uses the key to unlock Door 1, passes through, and arrives in Room 2 at T=T₀+1.
 
 ### Return Visits / Alternate Paths
 
