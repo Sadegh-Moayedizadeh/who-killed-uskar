@@ -37,6 +37,29 @@ Uskar understood something that very few creatures have ever understood: that th
 **Candidate 3: The Outer God themselves killed Uskar.**
 Time in this world is a tree, not a line. Future branches exist. A version of the Outer God, possessing full knowledge of all that the game teaches, may have traveled to the moment before the game begins and killed Uskar to initiate the very chain of events that created them. This is the most philosophically vertiginous answer: the mystery is self-caused. The investigation leads back to the investigator.
 
+### Proposed Synthesis — Silarmousch's Escape Plan **[TBD — PROPOSED]**
+
+This is a design proposal that unifies Candidate 1 and Candidate 3 and supplies Silarmousch's missing motive. It is recorded here to develop from, not yet confirmed.
+
+**The proposed thread:**
+
+- **Uskar caused Silarmousch's creation.** Whatever Uskar was, their existence is the cause from which Silarmousch came to be. This gives Uskar a concrete causal weight in the world's history (consistent with "Uskar's death set an entire chain of metaphysical events in motion") without yet fixing Uskar's nature, which remains deliberately ambiguous (see [characters.md](characters.md)).
+- **Silarmousch's true goal is not corruption for its own sake — it is to become unreachable.** The whole trap of Rooms 1–3 is the opening of a longer design whose endpoint is to get the Outer God to travel back in time and kill Uskar. Because Uskar is the cause of Silarmousch's creation, killing Uskar forces the world into a branch in which Silarmousch was never created.
+- **The win condition for Silarmousch is the branch, not the death.** Time is a tree: going back and producing a divergent state does not erase the parent — it forks a new branch (see [world/time.md](../world/time.md)). The Outer God, having committed the act, is left on / directed toward the branch where Silarmousch never existed. Silarmousch's own branch remains intact, and from the god's branch it is **out of reach** — a creature that does not exist on the branch the god can perceive cannot be located, perceived, or possessed by that god.
+
+**Why this fits the established themes:**
+
+- It makes Silarmousch a seeker of the game's *third freedom* (see "The Third Freedom" below) by a different route: not by exiting time entirely, but by branching the timeline so that he is absent from — and therefore imperceptible within — the only branch the Outer God occupies. The god "cannot know whether they are dead, transformed, or free."
+- It makes the Outer God the literal killer of Uskar (Candidate 3) *because* Silarmousch engineered it (Candidate 1) — the two candidates are the same act seen from two ends.
+- The act requires the player to split time, which is a cardinal sin (see [world/souls.md](../world/souls.md) and [world/time.md](../world/time.md)). So the plan still corrupts the god's soul, preserving Silarmousch's previously-stated aim of producing a compromised Outer God — corruption is now the *means*, and self-erasure into an unreachable branch is the *end*.
+
+**Open questions this proposal raises (to resolve before Act 4/5):**
+
+- Does branching alone make Silarmousch unreachable, or must the god be *bound* to the new branch somehow (e.g. unable to step back across the fork that erased him)? The mechanics of "stranding" the god on the Uskar-killed branch need design.
+- If Uskar's death is what summons the Outer God in the first place, and the god is the one who kills Uskar, the loop is total (the self-caused mystery). Is this loop the intended final answer, or one credible reading the game later complicates?
+- What does Silarmousch gain on his intact branch once the god is gone — simple survival, freedom from divine control, or something more?
+- Where in the world is the evidence for "Uskar caused Silarmousch" planted, and is it discoverable in Act 4 (a text, a painting, a witness) without giving the synthesis away early?
+
 ---
 
 ## The Three Antagonistic Forces
@@ -258,8 +281,8 @@ The following are confirmed and should be treated as fixed constraints:
 
 These are not yet resolved and must be addressed before Acts 4 and 5 can be written:
 
-- Which of the three candidate answers for Uskar's death is correct (or how they combine)?
-- What are Silarmousch's full motives?
+- Which of the three candidate answers for Uskar's death is correct (or how they combine)? See the proposed synthesis above, which combines Candidates 1 and 3.
+- What are Silarmousch's full motives? See the proposed "Silarmousch's Escape Plan" above for one candidate motive (self-erasure into an unreachable branch).
 - Are there other Outer Gods acting on this world, and what do they want?
 - What was Uskar's nature specifically — god, mage, creature, or something else?
 - What happens on the demonic path continuation through Door 6? What is in Room TBD beyond it?

@@ -90,6 +90,8 @@ Deliberately ambiguous. Possible theories, none confirmed:
 2. He is trying to free creatures from divine control by causing gods to destroy their own souls through the manipulation of other souls.
 3. He has his own private agenda connected to Uskar's death — one that neither the player nor Bournache yet understands.
 
+A proposed elaboration of theory 3 is recorded in [narrative.md](narrative.md) ("Silarmousch's Escape Plan"): Uskar caused Silarmousch's creation, so Silarmousch's end goal is to steer the Outer God into travelling back and killing Uskar — forking the timeline into a branch where Silarmousch was never created and is therefore out of the god's reach.
+
 ### Current Status
 
 Unknown. Likely still active in the world, watching from a distance.

@@ -68,6 +68,46 @@ Creatures exist at specific time values and can be encountered, re-encountered, 
 
 ---
 
+## Creature Templates and Variation
+
+> **Status: proposed.** This section records a design direction, not confirmed mechanics. It builds on the duplication mechanic in [world/time.md](../world/time.md) and the fixed-set approach already used for artifacts in [artifacts.md](artifacts.md).
+
+The world is meant to be expandable — its population can grow over the course of play and across time branches. Two facts already established constrain how this can work:
+
+1. **Creatures cannot be morphed.** Because a creature carries a soul, it is exempt from the morphing that artifacts undergo (see above and [doors.md](doors.md)). So new creatures cannot simply be morphed into existence the way objects can.
+2. **Creatures multiply by duplication across time.** The way a creature comes to exist in more than one place is the time mechanic: it travels back to a time it was present at, but arrives in a *different* location than its original self occupied. The original instance stays where it was; the arriving creature becomes a second, separate, independent instance. Both are now real. This is the same mechanism that, per [world/time.md](../world/time.md), the primordial creator used to populate the entire world — and, like all such divergence, it forks the timeline and is the sin of splitting time.
+
+On top of those, this proposal adds a roster-and-variation model, mirroring how objects work:
+
+- **A fixed set of base creatures (templates).** Just as the world has a fixed set of object types, it has a fixed set of base creatures. Every creature in the world is either one of these base templates or a **variation** derived from one. This keeps the creature space authorable and consistent while still allowing the population to expand.
+- **Each duplicate may be a variation, not an exact copy.** When duplication produces a new instance, that instance need not be identical to its origin. It can differ — and the variation should be able to reach beyond appearance into **character** (personality attributes, behavior), not looks alone.
+
+**The open question (carried over from the original thoughts):** *how* is a duplicate altered, given that a creature cannot be morphed? Morphing is the artifact mechanism and is explicitly forbidden for soul-bearing things, so variation must come from somewhere else. Candidate sources to explore:
+
+- Variation arising naturally from **divergent state**: a duplicate created at a different place, time, and history accumulates a different set of experiences, and its [automated behavior](#automated-behavior) therefore diverges from its origin's. The two instances "do not share state" (per [world/time.md](../world/time.md)), so they can drift apart through what happens to them rather than through any morph.
+- Variation seeded at the **template** level: base creatures define a space of allowed variants (appearance ranges, attribute ranges, behavior-tree parameters), and each instance is one point in that space.
+
+Whether either, both, or some other source is correct is undecided. What is fixed is the boundary: this must not become creature-morphing, which the soul rules forbid.
+
+## Automated Behavior
+
+> **Status: proposed.** This is the design direction for the open item "Uncontrolled Creatures and Automated Behavior" in [ideas.md](../ideas.md). It is grounded in the determinism already stated in [world/time.md](../world/time.md): "a given world state plus a given set of actions always produces the same next state."
+
+Creatures the Outer God is not currently controlling still act. Their actions are driven by the creature's **mind** (its own cognition, see above) and are **deterministic** — the same situation always yields the same decision. This is what makes the whole world reproducible across time travel: stepping back and repeating the same inputs re-creates the same future, so no branch forms unless something genuinely differs (see [world/time.md](../world/time.md)).
+
+**Proposed model:**
+
+- **Input state.** At a given time value, a creature decides based on (a) the current state of the room it is in, and (b) the **last-known** state of the other rooms it has previously visited — not their true current state, only what that creature last observed. A creature acts on its own limited, possibly stale picture of the world.
+- **Decision.** From that input state the creature makes a deterministic choice via a **decision tree** (movement, combat, picking up or using artifacts, passing doors, etc.). Dialogue is handled by the same idea applied to speech: the branched **conversation trees** already defined in [conversations/index.md](../conversations/index.md) are the talking subset of this behavior, forking on world state, soul soundness, and what the creature has been told.
+- **Transition.** The chosen actions advance the creature from its state at one time value to its state at the next. Because every step is deterministic, the sequence is fully reproducible.
+- **Consequence — the game can run itself.** With every uncontrolled creature governed this way, the world can progress on its own: creatures move, talk, and change state without the designer (or the player) scripting each beat. The Outer God's control is then one deterministic agent among many, layered over a world that would otherwise keep running.
+
+This connects to several existing constraints and open questions:
+
+- It does not change godly perception: the Outer God still only knows what its current vessel can observe (see [world/gods.md](../world/gods.md) and [world/time.md](../world/time.md)). Whether the god *passively observes* known-but-uncontrolled creatures, or they are simply absent from its perception until interacted with, remains the open question flagged in [ideas.md](../ideas.md).
+- Act 4 requires past, uncontrolled historical figures to be "running" coherently at past time values so the player can investigate Uskar's death. Deterministic behavior is what makes replaying and observing the past well-defined.
+- The `Mind` faculty is where this logic conceptually lives; in code it is currently an empty stub.
+
 ## Naming Convention
 
 Creature names follow a consistent phonetic pattern for this world — harsh consonants and unusual vowel combinations (e.g. *Silarmousch*, *Sekmidorgue*, *Bournache*). New creatures should be named to match. The roster of named and placeholder creatures lives in [story/characters.md](story/characters.md).

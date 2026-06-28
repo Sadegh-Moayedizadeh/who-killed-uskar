@@ -41,7 +41,7 @@ What needs work:
 
 ## Going Back in Time Creates Duplication — The World Creation Mechanic
 
-Documented in world/time.md as a fact about how branching works. The idea that the entire world was created by a primordial creator using this duplication mechanic is mentioned in a single line in world/time.md but has no elaboration, no historical narrative, no mythological grounding.
+Documented in world/time.md as a fact about how branching works. The idea that the entire world was created by a primordial creator using this duplication mechanic is mentioned in a single line in world/time.md but has no elaboration, no historical narrative, no mythological grounding. The creature side of expansion — a fixed roster of base creatures, duplicates as variations, and the open question of how a duplicate is altered without morphing — is now drafted in "Creature Templates and Variation" in [mechanics/creatures.md](mechanics/creatures.md).
 
 What needs work:
 - Who or what was the primordial creator? Is this the same as the main god referenced in the original notes? Is this figure relevant to the investigation of Uskar's death, or is it purely cosmological backstory?
@@ -64,10 +64,10 @@ What needs work:
 
 ## Uncontrolled Creatures and Automated Behavior
 
-The concept is noted in the original ideas: uncontrolled creatures act automatically based on rules. world/time.md handles the time-perception side (events within a time value have internal order without advancing the integer). But the actual behavioral rules for uncontrolled creatures — how they decide what to do, how they interact with the time system, what triggers their movement — have not been designed.
+The concept is noted in the original ideas: uncontrolled creatures act automatically based on rules. world/time.md handles the time-perception side (events within a time value have internal order without advancing the integer). A proposed mechanism now exists — see "Automated Behavior" in [mechanics/creatures.md](mechanics/creatures.md): deterministic decision trees over an input state of (current room state + last-known state of other visited rooms), with conversation trees as the talking subset. What remains open below is the perception side and the finer rules.
 
 What needs work:
-- What is the rule system that governs NPC behavior within a time instance? Do they have scripted sequences, decision trees, or something more emergent?
+- What is the rule system that governs NPC behavior within a time instance? The proposal is deterministic decision trees (see creatures.md); the open part is how rich/emergent these need to be versus fully scripted.
 - When the player is not controlling a creature, and that creature is known to the Outer God, does the god passively observe them? Or are they simply absent from the god's perception until directly interacted with?
 - In Act 4, the player will need to observe past events (to investigate Uskar's death). This requires uncontrolled historical figures to be "running" in some coherent way at past time values. The system for this is undesigned.
 
