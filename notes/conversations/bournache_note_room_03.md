@@ -1,8 +1,8 @@
 # Bournache's Note
 
 - **Participants:** Bournache (written; not present in person).
-- **Room / Time:** Room 3, on the central reading stand.
-- **Trigger:** The player enters Room 3 from Room 2, soul weakened by the murder of Lisspeg. The parchment sits on the central reading stand, glowing faintly. It is unmissable.
+- **Room / Time:** Room 3, on the central stand.
+- **Trigger:** The player enters Room 3 from Room 2, soul weakened by the murder of Lisspeg. The parchment sits on the central stand, glowing faintly. It is unmissable.
 - **Tone:** Clear, urgent, and compassionate without sentimentality. Bournache writes as someone who knows their time is limited but refuses to be rushed. He wants to be understood. Every sentence earns its place.
 
 This is the key exposition document of the early game — the text that explains what has happened to the player and what they can do about it. See [story/characters.md](story/characters.md) for Bournache's profile and [rooms/room_03.md](rooms/room_03.md) for the room.
@@ -31,7 +31,7 @@ You were set up.
 
 The mage Silarmousch placed Lisspeg in that first room with a key and a story. He placed a dagger in the second room, in plain sight, the only thing there worth noticing. He designed a trap that required nothing of you except the simplest and most human choice: take the dagger, go back, use it. Most creatures who walk that path do not stop to think about why the dagger is there. Most don't need to be pushed. The situation pushes for him.
 
-Murder is a cardinal sin. It corrupts the soul. The moment Lisspeg died, your soul weakened — and the demonic door became visible. The path into this room, into this library, into everything Silarmousch wants to show you. That is where you are now.
+Murder is a cardinal sin. It corrupts the soul. The moment Lisspeg died, your soul weakened — and the demonic door became visible. The path into this room, into everything Silarmousch wants to show you. That is where you are now.
 
 I want to be direct with you: Silarmousch is not your guide. He is steering you. I do not yet know all of his reasons, but I know what he has built here, and I know where it leads. Further down this path, your soul will weaken further. The divine doors will remain invisible. You will eventually reach a state from which recovery becomes very difficult, and which, taken to its end, leaves nothing.
 
@@ -41,7 +41,7 @@ There is a door in this room — Door 6 — that you can currently see and I can
 
 **On what I am offering you**
 
-There is a painting in this library called The Great Dawn. Use it. I have altered it to function as a signal — when you interact with it, I will know, and I will come.
+There is a painting in this room called The Great Dawn. Use it. I have altered it to function as a signal — when you interact with it, I will know, and I will come.
 
 After you have used the painting, advance time by one unit: take the return door out of this room into Room 2, and come back through. When you return, I will be here.
 
@@ -53,6 +53,6 @@ I will explain more when we meet.
 
 **On what knowledge is more accurate**
 
-This room is full of books. They are worth reading. But a library built inside a trap is also part of the trap. Not everything here is false — some of it is genuinely useful — but it was curated with an intention you should keep in mind. You are standing inside something that was designed. Read accordingly.
+This room was made to teach you things, and some of what it shows you is genuinely useful. But a lesson built inside a trap is also part of the trap. Everything here was curated with an intention you should keep in mind. You are standing inside something that was designed. Weigh it accordingly.
 
 *In hope — Bournache*

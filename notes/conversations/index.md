@@ -30,7 +30,7 @@ A conversation may re-enter itself (e.g. refuse, then return) — restart points
 | File | Participants | Room / Time | Summary |
 |------|--------------|-------------|---------|
 | [lisspeg_room_01.md](lisspeg_room_01.md) | Lisspeg | Room 1, T=0 | The first meeting; Lisspeg hands over Silarmousch's Ward Key. |
-| [bournache_note_room_03.md](bournache_note_room_03.md) | Bournache (written) | Room 3 | The exposition note on the reading stand. |
+| [bournache_note_room_03.md](bournache_note_room_03.md) | Bournache (written) | Room 3 | The exposition note on the central stand. |
 | [bournache_sacrifice_room_03.md](bournache_sacrifice_room_03.md) | Bournache | Room 3, T+1 | Bournache offers his soul; accept / refuse branches. |
 | [bol_room_04.md](bol_room_04.md) | Bol | Room 4 | The nectar scene; drink / refuse branches. |
 | [sekmidorgue_room_05.md](sekmidorgue_room_05.md) | Sekmidorgue | Room 5 | The five disciplines, tutorial debriefs, and completion. |

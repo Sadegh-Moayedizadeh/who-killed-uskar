@@ -16,7 +16,6 @@ These notes follow a modular, OOP-style organization: each file describes one sy
 4. Read the [story/](story/) files to understand the narrative arc and characters.
 5. Read the [rooms/](rooms/) files to understand each individual location.
 6. Read the [conversations/](conversations/) files for the branched dialogue scripts.
-7. Read the [books/](books/) files to understand in-world lore.
 
 ---
 
@@ -98,18 +97,6 @@ Narrative arc and character profiles.
 |------|---------|
 | [story/narrative.md](story/narrative.md) | Main story arc, the mystery, themes, and act structure |
 | [story/characters.md](story/characters.md) | All character profiles: confirmed, secondary, and historical |
-
----
-
-### Books
-
-In-world library texts available to players.
-
-| File | Purpose |
-|------|---------|
-| [books/index.md](books/index.md) | Catalog of all in-world library books |
-| [books/the_adventures_of_gounargoun.md](books/the_adventures_of_gounargoun.md) | Full text of the mythological divine-path story |
-| [books/the_pilgrimage_of_pyutkah.md](books/the_pilgrimage_of_pyutkah.md) | Full text of the pilgrim's journey story |
 
 ---
 

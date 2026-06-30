@@ -2,14 +2,14 @@
 
 - **Participants:** Bournache, the player (original vessel).
 - **Room / Time:** Room 3, T+1.
-- **Trigger:** The player has used The Great Dawn painting and advanced time by one unit (via Door 7 to Room 2 and back through Door 3). Bournache is now present in the library, at the reading stand, calm — as if he has been waiting, which, in a sense, he has.
+- **Trigger:** The player has used The Great Dawn painting and advanced time by one unit (via Door 7 to Room 2 and back through Door 3). Bournache is now present in the room, at the central stand, calm — as if he has been waiting, which, in a sense, he has.
 - **Tone:** Steady, warm without being soft. Bournache has made his decision and made peace with it. He is not trying to comfort the player — he is being honest with them. There is a clarity about him that comes from having already settled the hard questions before the conversation began.
 
 See [story/characters.md](story/characters.md) for Bournache's profile and [rooms/room_03.md](rooms/room_03.md) for the room. This conversation follows [bournache_note_room_03.md](bournache_note_room_03.md).
 
 ---
 
-*Bournache stands at the reading stand, one hand resting on the edge of it, facing the player. He does not move forward to close the distance. He simply is there, exactly as he said he would be.*
+*Bournache stands at the central stand, one hand resting on the edge of it, facing the player. He does not move forward to close the distance. He simply is there, exactly as he said he would be.*
 
 **BOURNACHE:**
 You used the painting. I'm glad.
@@ -62,7 +62,7 @@ Carry this forward. That is all I ask.
 **BOURNACHE:**
 All right. That is your choice to make.
 
-*He looks at the room around them — the books, the reading stand, the still-visible Door 6.*
+*He looks at the room around them — the central stand, the still-visible Door 6.*
 
 **BOURNACHE:**
 If you change your mind, use the painting again. I'll come back. I have time enough for that.

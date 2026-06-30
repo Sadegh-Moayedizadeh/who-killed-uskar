@@ -22,7 +22,7 @@ What needs work:
 The third antinomy (freedom vs. determinism) is named in story/narrative.md as the game's organizing philosophical tension, and the tension is described in broad terms. But the game does not yet have a specific moment — a room, a puzzle, a confrontation — where the antinomy is experienced mechanically and not just read about.
 
 What needs work:
-- There should be at least one moment where the player is confronted with the antinomy in a way that cannot be resolved by reading a book or receiving dialogue. Something must happen to the player that forces them to feel the thesis and the antithesis simultaneously, not just understand them abstractly.
+- There should be at least one moment where the player is confronted with the antinomy in a way that cannot be resolved through exposition or dialogue. Something must happen to the player that forces them to feel the thesis and the antithesis simultaneously, not just understand them abstractly.
 - The third antinomy is described as the "key to solving the game." This implies it should be something the player applies — a realization that unlocks access or changes how they act — not merely something they learn. The mechanism of this application is entirely undesigned.
 - Kant's specific resolution (that freedom and causality operate in different registers — noumenal vs. phenomenal) may be the model for the game's own resolution: that true freedom exists in a domain (outside time) that causal/temporal reasoning cannot reach. This structural parallel needs to be made concrete in Act 4 or 5.
 
@@ -34,7 +34,7 @@ The question is present in the narrative document as a confirmed recurring theme
 
 What needs work:
 - Design at least two or three scenes in Act 4 where the player faces a genuine choice between more freedom (more sin, more demonic ability, more independence from the divine) and a constrained path that keeps them connected to the divine. These scenes need to make freedom feel genuinely appealing, not just abstractly tempting.
-- The book "The Joy of Divine Possession" and the Gounargoun mythology represent the divine side of this question. What represents the freedom side compellingly and without caricature? There should be a character or event that makes the player want what the monsters have, even knowing the cost.
+- The Gounargoun mythology represents the divine side of this question. What represents the freedom side compellingly and without caricature? There should be a character or event that makes the player want what the monsters have, even knowing the cost.
 - The Outer God themselves should eventually confront this question. The player is a god — but still constrained: bound to a vessel until it dies, blind to what lies outside time, and perhaps not the only Outer God reaching into this world. Is the Outer God free? Does the Outer God want to be?
 
 ---
@@ -91,7 +91,7 @@ What needs work:
 
 ## The Cult of Mass Suicide — Beliefs, Mechanics, and Role in the Story
 
-Mentioned briefly in the original ideas and documented only in a single note in rooms/room_03.md (the book "Poisons and Their Purposes"). The cult is completely undeveloped as a faction.
+Mentioned briefly in the original ideas and otherwise undocumented. The cult is completely undeveloped as a faction.
 
 What needs work:
 - What does this cult believe? What theology or philosophy justifies mass voluntary death?
@@ -107,7 +107,7 @@ What needs work:
 Documented in world/gods.md and world/souls.md as the game's ultimate secret. story/narrative.md calls it "the game's deepest theme." But the game has no concrete encounter with a being or object that has achieved this state.
 
 What needs work:
-- How does the player first encounter evidence that this state exists? It cannot only be delivered through books. There should be a moment where the player looks for someone they should be able to find and cannot — a creature who has exited time and is simply gone.
+- How does the player first encounter evidence that this state exists? It cannot only be delivered through exposition. There should be a moment where the player looks for someone they should be able to find and cannot — a creature who has exited time and is simply gone.
 - What does it feel like from the inside? If the player could momentarily experience the outside-of-time state, what would they perceive or fail to perceive?
 - This state is the game's answer to Kant's antinomy. It needs to be designed as an experiential moment, not just a cosmological fact the player reads about.
 - If Uskar achieved this state, then Uskar was never killed — they exited. The "murder" is a misreading of an exit. This is perhaps the most structurally satisfying answer to the mystery, but it requires the game to have shown the player what that exit looks like before the answer lands.

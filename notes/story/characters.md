@@ -202,7 +202,7 @@ All names follow the world's phonetic pattern — harsh consonants, unusual vowe
 
 ## Historical Figures
 
-In-world figures referenced in books, texts, and NPC dialogue. They are mythological or historical — not present in the game's current timeline — but their stories shape how characters understand divine possession, sacrifice, and the demonic path.
+In-world figures referenced in myth and NPC dialogue. They are mythological or historical — not present in the game's current timeline — but their stories shape how characters understand divine possession, sacrifice, and the demonic path.
 
 ### Gounargoun
 

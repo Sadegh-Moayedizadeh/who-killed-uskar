@@ -18,7 +18,7 @@ The answer is not given until the player returns to Room 1 with full knowledge o
 
 ### Who Was Uskar **[CONFIRMED]**
 
-Uskar was a being of exceptional significance. The exact nature of Uskar is held back from the player in the early game and disclosed gradually through clues scattered in notes, books, dialogues, and room details across Acts 3 and 4.
+Uskar was a being of exceptional significance. The exact nature of Uskar is held back from the player in the early game and disclosed gradually through clues scattered in notes, dialogues, and room details across Acts 3 and 4.
 
 What is established: Uskar's death was not incidental. It set in motion the chain of events that brought the Outer God (the player) into this world. The death was either the cause of the player's summoning, the mechanism for it, or both. Uskar was not killed randomly. Someone with significant power and intent arranged it, and that arrangement is the engine of the entire game.
 
@@ -84,8 +84,7 @@ The demonic path is not a person. It is the structure Silarmousch built. Its com
 
 - The Sinner's Dagger in Room 2 — a weapon placed to facilitate the first murder.
 - The demonic door in Room 2 (Door 3) — visible only after the soul is corrupted.
-- Room 3, with its demonic door forward (Door 6) and its full library of dark lore accessible to a weakened soul.
-- The hidden dark library sections within Room 3 that Bournache's note specifically warns against.
+- Room 3, with its demonic door forward (Door 6) accessible to a weakened soul.
 - All demonic doors, artifacts, and creatures accessible through the continuation of Door 6 and beyond.
 
 Following this path deepens corruption progressively. Each step down it makes the next step easier (demonic doors become more visible) and the way back harder (the soul requires significant purification acts to recover). The end state of this path is monsterdom: a creature with no soul, no identity, no access to magic, no possibility of divine control. It is the game's equivalent of a death that the player survives as a diminished shell.
@@ -102,7 +101,7 @@ The mystery functions antagonistically because it resists resolution. It keeps p
 
 ### Bournache **[CONFIRMED]**
 
-Bournache is a divine mage who discovered what Silarmousch was doing with Room 3 and intervened. He altered the room through a magical painting ("The Great Dawn"), placed a conspicuous glowing note on the central reading stand — designed so that nearly every player reads it before anything else — and set up the mechanism by which a player can contact him.
+Bournache is a divine mage who discovered what Silarmousch was doing with Room 3 and intervened. He altered the room through a magical painting ("The Great Dawn"), placed a conspicuous glowing note on the central stand — designed so that nearly every player reads it before anything else — and set up the mechanism by which a player can contact him.
 
 When contacted via the painting, Bournache arrives at T+1. He explains Silarmousch's trap, explains the mechanics of soul soundness and door visibility, and offers the player's vessel a willing sacrifice: his own soul, given freely, to purify the vessel's corrupted soul from the murder of Lisspeg.
 
@@ -145,7 +144,7 @@ Neither path is presented as satisfying. Neither path is correct. The antinomy i
 
 This question recurs throughout the game in multiple forms.
 
-The wizard who embraces divine control is described in the library texts as experiencing bliss — a sense of alignment, of being exactly the instrument they were made to be. For them, control is not a cage; it is completion. The book "The Joy of Divine Possession" and the mythological text "The Adventures of Gounargoun" both express this position without irony.
+The wizard who embraces divine control is described as experiencing bliss — a sense of alignment, of being exactly the instrument they were made to be. For them, control is not a cage; it is completion. The mythology of Gounargoun — a creature who surrendered fully to divine control and achieved nirvana — expresses this position without irony.
 
 The sinner who destroys their soul gains abilities unavailable to the pure: demonic weapons, demonic doors, freedoms of movement and perception that divine creatures cannot access. But they are losing themselves in the same process. What they gain in capability they lose in identity.
 
@@ -208,7 +207,7 @@ Uskar may not have been a victim. Uskar may have been the initiating actor in a 
 
 The player wakes in Room 1 as an unnamed creature with no knowledge of who they are or who Uskar is. They meet Lisspeg, receive the Ward Key from him, proceed to Room 2, find the Sinner's Dagger, and return to Room 1 to kill Lisspeg. This is the first cardinal sin: murder. The soul is corrupted. Door 3 (the hidden demonic door in Room 2) becomes visible.
 
-The player enters Room 3 — a grand library — with a weakened soul and Door 6 (the demonic continuation) clearly visible. Bournache's Note is on the central reading stand, glowing and unmissable. It explains soul soundness, door visibility, Silarmousch's trap, and how to contact Bournache through the painting "The Great Dawn."
+The player enters Room 3 with a weakened soul and Door 6 (the demonic continuation) clearly visible. Bournache's Note is on the central stand, glowing and unmissable. It explains soul soundness, door visibility, Silarmousch's trap, and how to contact Bournache through the painting "The Great Dawn."
 
 The player contacts Bournache, advances time to T+1, receives Bournache's willing sacrifice, and the soul is purified. Door 6 disappears. Door 5 becomes visible. The player proceeds to Room 4.
 
