@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/creatures/lisspeg.gd" id="1_lisspeg"]
+
+[sub_resource type="RectangleShape2D" id="lisspeg_shape"]
+size = Vector2(32, 48)
+
+[node name="Lisspeg" type="Area2D"]
+script = ExtResource("1_lisspeg")
+prompt = "Talk to Lisspeg"
+
+[node name="Body" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-16, -24, 16, -24, 16, 24, -16, 24)
+color = Color(0.62, 0.45, 0.3, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("lisspeg_shape")
+
+[node name="Blocker" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Blocker"]
+shape = SubResource("lisspeg_shape")

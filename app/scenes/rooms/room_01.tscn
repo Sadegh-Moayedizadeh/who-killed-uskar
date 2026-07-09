@@ -1,0 +1,81 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scenes/rooms/room.gd" id="1_room"]
+[ext_resource type="PackedScene" path="res://scenes/creatures/lisspeg.tscn" id="2_lisspeg"]
+[ext_resource type="PackedScene" path="res://scenes/objects/door.tscn" id="3_door"]
+[ext_resource type="PackedScene" path="res://scenes/objects/painting.tscn" id="4_painting"]
+
+[sub_resource type="RectangleShape2D" id="wall_h"]
+size = Vector2(1280, 64)
+
+[sub_resource type="RectangleShape2D" id="wall_v"]
+size = Vector2(64, 720)
+
+[node name="Room01" type="Node2D"]
+script = ExtResource("1_room")
+label = "Who killed Uskar?"
+
+[node name="Floor" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(64, 64, 1216, 64, 1216, 656, 64, 656)
+color = Color(0.13, 0.12, 0.14, 1)
+
+[node name="WallsVisual" type="Node2D" parent="."]
+
+[node name="Top" type="Polygon2D" parent="WallsVisual"]
+polygon = PackedVector2Array(0, 0, 1280, 0, 1280, 64, 0, 64)
+color = Color(0.22, 0.2, 0.23, 1)
+
+[node name="Bottom" type="Polygon2D" parent="WallsVisual"]
+polygon = PackedVector2Array(0, 656, 1280, 656, 1280, 720, 0, 720)
+color = Color(0.22, 0.2, 0.23, 1)
+
+[node name="Left" type="Polygon2D" parent="WallsVisual"]
+polygon = PackedVector2Array(0, 0, 64, 0, 64, 720, 0, 720)
+color = Color(0.22, 0.2, 0.23, 1)
+
+[node name="Right" type="Polygon2D" parent="WallsVisual"]
+polygon = PackedVector2Array(1216, 0, 1280, 0, 1280, 720, 1216, 720)
+color = Color(0.22, 0.2, 0.23, 1)
+
+[node name="Walls" type="StaticBody2D" parent="."]
+
+[node name="TopShape" type="CollisionShape2D" parent="Walls"]
+position = Vector2(640, 32)
+shape = SubResource("wall_h")
+
+[node name="BottomShape" type="CollisionShape2D" parent="Walls"]
+position = Vector2(640, 688)
+shape = SubResource("wall_h")
+
+[node name="LeftShape" type="CollisionShape2D" parent="Walls"]
+position = Vector2(32, 360)
+shape = SubResource("wall_v")
+
+[node name="RightShape" type="CollisionShape2D" parent="Walls"]
+position = Vector2(1248, 360)
+shape = SubResource("wall_v")
+
+[node name="SpawnPoint" type="Marker2D" parent="."]
+position = Vector2(180, 420)
+
+[node name="Lisspeg" parent="." instance=ExtResource("2_lisspeg")]
+position = Vector2(560, 380)
+
+[node name="Door1" parent="." instance=ExtResource("3_door")]
+position = Vector2(1204, 360)
+locked = true
+required_key = &"silarmousch_ward_key"
+time_effect = 1
+destination_scene = "res://scenes/rooms/room_placeholder.tscn"
+
+[node name="PaintingShadow" parent="." instance=ExtResource("4_painting")]
+position = Vector2(320, 100)
+description = "A tall figure stands among a crowd, painted in the same pigments as everyone else — but where every other figure casts a shadow, this one casts none. The crowd does not seem to notice. Or perhaps they cannot."
+
+[node name="PaintingGift" parent="." instance=ExtResource("4_painting")]
+position = Vector2(640, 100)
+description = "A man kneels, offering his own chest to a blade held by someone whose face has flaked away with age. His expression is not fear. It is gratitude. Beneath the varnish, a faint gold thread rises from him toward the top of the frame."
+
+[node name="PaintingHunt" parent="." instance=ExtResource("4_painting")]
+position = Vector2(960, 100)
+description = "A hunting scene. Riders with lances surround a beast at bay. The painter gave every rider bright, careful eyes — and left the beast's sockets as bare, unpainted canvas. Whatever it was, it had nothing left inside to paint."

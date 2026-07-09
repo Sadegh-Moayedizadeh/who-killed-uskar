@@ -14,3 +14,8 @@ var current_time: int = 0
 ## The creature the player currently possesses. Typed as Node for now;
 ## it will become a Creature once that scene/class exists.
 var current_vessel: Node = null
+
+## True while the dialogue box is open. The vessel refuses to move or
+## interact while this is set, so conversation input never leaks into
+## the world.
+var input_locked: bool = false

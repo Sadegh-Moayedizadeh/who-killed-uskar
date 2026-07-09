@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/creatures/vessel.gd" id="1_vessel"]
+
+[sub_resource type="RectangleShape2D" id="body_shape"]
+size = Vector2(28, 44)
+
+[sub_resource type="CircleShape2D" id="reach_shape"]
+radius = 56.0
+
+[node name="Vessel" type="CharacterBody2D"]
+script = ExtResource("1_vessel")
+
+[node name="Body" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-14, -22, 14, -22, 14, 22, -14, 22)
+color = Color(0.85, 0.82, 0.74, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("body_shape")
+
+[node name="Reach" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Reach"]
+shape = SubResource("reach_shape")
+
+[node name="Prompt" type="Label" parent="."]
+offset_left = -120.0
+offset_top = -52.0
+offset_right = 120.0
+offset_bottom = -30.0
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 1
+visible = false

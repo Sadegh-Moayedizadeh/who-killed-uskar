@@ -9,7 +9,9 @@ the Python prototypes in `../models/` are the domain-model reference.
 |------|---------|
 | `project.godot` | The project file. Godot recognizes a folder as a project by this file. Registers the main scene and the autoload singletons. |
 | `scenes/main/` | The root scene. Hosts the currently active room under `RoomHost` and the overlay UI under a `CanvasLayer`. |
-| `scenes/rooms/` | One scene per room (`room_01.tscn`, …), mirroring `notes/rooms/`. Instantiated one at a time under `RoomHost`. |
+| `scenes/rooms/` | One scene per room (`room_01.tscn`, …), mirroring `notes/rooms/`. Instantiated one at a time under `RoomHost`. All rooms share `room.gd` and set their own `label`. |
+| `scenes/creatures/` | Creature scenes: the player-controlled `vessel.tscn` and NPCs like `lisspeg.tscn`. |
+| `scenes/objects/` | Interactable world objects (`door.tscn`, `painting.tscn`) and the `Interactable` base class. |
 | `scenes/ui/` | Reusable UI scenes: dialogue box, inventory panel, the room's label-question display. |
 | `core/` | Pure GDScript game logic with no scene attached — soul, time-tree, inventory — mirroring `../models/`. |
 | `autoload/` | Singleton scripts loaded before any scene: `GameState` (current time, current vessel) and `EventBus` (global signals). |
