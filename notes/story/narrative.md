@@ -16,67 +16,56 @@ The player does not know who Uskar is. They have no context for the question. It
 
 The answer is not given until the player returns to Room 1 with full knowledge of the world: who they are, how time works, what souls are, what gods can and cannot perceive, and what true freedom costs. Only then does the room — unchanged from its first appearance — yield its answer.
 
-### Who Was Uskar **[CONFIRMED]**
+### Who Was Uskar **[CONFIRMED — full truth fixed 2026-07-14]**
 
-Uskar was a being of exceptional significance. The exact nature of Uskar is held back from the player in the early game and disclosed gradually through clues scattered in notes, dialogues, and room details across Acts 3 and 4.
+Uskar was one of the base creature **Forms** — the Form of Inquiry, present in the First Room at T=0, holder of the largest soul the world has ever contained, the world's first sinner and first mage, and the only being ever to exit time (see [world/forms.md](../world/forms.md) and [characters.md](characters.md)). The exact nature of Uskar is held back from the player in the early game and disclosed gradually through clues scattered in notes, dialogues, and room details across Acts 3 and 4.
 
-What is established: Uskar's death was not incidental. It set in motion the chain of events that brought the Outer God (the player) into this world. The death was either the cause of the player's summoning, the mechanism for it, or both. Uskar was not killed randomly. Someone with significant power and intent arranged it, and that arrangement is the engine of the entire game.
+Uskar's "death" was not incidental — and it was not a death. It set in motion the chain of events that brought the Outer God (the player) into this world, by design: the question stamped on Room 1 is the summoning mechanism, and Uskar stamped it there himself before exiting.
 
 **Note on the character name:** The character file uses the spelling "Uskerr." This document uses "Uskar" consistently as the canonical form per the game's title. If this is resolved otherwise, update both files.
 
-### The Three Possible Answers **[TBD — open for development]**
+### The Answer **[CONFIRMED 2026-07-14]**
 
-These three candidate answers are not mutually exclusive. The game should be designed so that each appears credible for a sustained stretch of Act 4 before the truth is resolved. The final answer may collapse all three into one or may select among them.
+**Nobody killed Uskar. Uskar exited time — and the question "Who killed Uskar?" is itself the trap.**
 
-**Candidate 1: Silarmousch killed Uskar to trap the Outer God.**
-Uskar's death created the circumstances that summoned a specific Outer God into Room 1. Silarmousch, who is the architect of the demonic trap in Rooms 1 through 3, may have engineered or commissioned that death. His motive in this reading: he wants the Outer God on the demonic path. Whether that serves a personal agenda, a faction's agenda, or something darker is itself a further mystery.
+Uskar's decision tree — the only tree in the world with a terminal node — halted (see [world/forms.md](../world/forms.md)). From inside time, an exit is indistinguishable from a death: a person who should be findable simply isn't, at any time value. The world read an exit as a murder. Uskar authored the misreading deliberately: he staged the "death" at T_d, Chronos-locked his testament to that single moment, stamped the First Room with a question that presupposes a murder that never happened, and left. The question summons gods — it is bait no god can ignore, placed in the room where gods arrive — and the summoned god is then put through a curriculum of antinomies designed to teach it, by direct experience, the boundary of its own perception. The player solves the game by rejecting the question's premise, not by naming a culprit.
 
-**Candidate 2: Uskar killed themselves.**
-Uskar understood something that very few creatures have ever understood: that the only real freedom from divine control is to exist outside of time entirely. Such a state is imperceptible to all gods. Uskar may have arranged their own death as a deliberate act — a trigger for a chain of events designed to demonstrate to gods that such freedom is possible and to help other creatures achieve it. In this reading, Uskar is not a victim. They are the architect of a liberation project, and the Outer God is both its instrument and its subject.
+### The Three Candidate Answers — all readings of the truth **[CONFIRMED as structure]**
 
-**Candidate 3: The Outer God themselves killed Uskar.**
-Time in this world is a tree, not a line. Future branches exist. A version of the Outer God, possessing full knowledge of all that the game teaches, may have traveled to the moment before the game begins and killed Uskar to initiate the very chain of events that created them. This is the most philosophically vertiginous answer: the mystery is self-caused. The investigation leads back to the investigator.
+The three candidates below must each appear credible for a sustained stretch of Act 4. They can, because they are all *readings* of the same facts — and the form system makes the key evidence genuinely compatible with all three: Silarmousch is Uskar's duplicate, and the original vessel is of Uskar's line, so any witness who saw "a figure with Uskar's face" near the death may have seen Uskar, Silarmousch, or the player's own vessel.
 
-### Proposed Synthesis — Silarmousch's Escape Plan **[TBD — PROPOSED]**
+**Candidate 1: Silarmousch killed Uskar to trap the Outer God.** *The reading that is true of the plot.* Silarmousch didn't kill anyone — but the murder-as-fact is load-bearing for his design, and his whole architecture exists to make the murder retroactively real (see the Escape Plan below). He is the "killer" in the sense that he is the one who needs a killing.
 
-This is a design proposal that unifies Candidate 1 and Candidate 3 and supplies Silarmousch's missing motive. It is recorded here to develop from, not yet confirmed.
+**Candidate 2: Uskar killed themselves.** *The reading closest to the truth.* Uskar authored their own "death" — but died in no sense at all. The cult of mass suicide holds this reading in corrupted form: they believe Uskar died into freedom and that poison is the exit. They are provably wrong (their dead leave corpse-dolls; Uskar's doll is blank), and their wrongness teaches the player the crucial distinction between death and exit.
 
-**The proposed thread:**
+**Candidate 3: The Outer God themselves killed Uskar.** *The reading that becomes true if the player fails.* In the false ending, the player travels back and commits the murder, becoming the answer to the question that summoned them. The mystery is self-caused — but only on the branch where the player makes it so.
 
-- **Uskar caused Silarmousch's creation.** Whatever Uskar was, their existence is the cause from which Silarmousch came to be. This gives Uskar a concrete causal weight in the world's history (consistent with "Uskar's death set an entire chain of metaphysical events in motion") without yet fixing Uskar's nature, which remains deliberately ambiguous (see [characters.md](characters.md)).
-- **Silarmousch's true goal is not corruption for its own sake — it is to become unreachable.** The whole trap of Rooms 1–3 is the opening of a longer design whose endpoint is to get the Outer God to travel back in time and kill Uskar. Because Uskar is the cause of Silarmousch's creation, killing Uskar forces the world into a branch in which Silarmousch was never created.
-- **The win condition for Silarmousch is the branch, not the death.** Time is a tree: going back and producing a divergent state does not erase the parent — it forks a new branch (see [world/time.md](../world/time.md)). The Outer God, having committed the act, is left on / directed toward the branch where Silarmousch never existed. Silarmousch's own branch remains intact, and from the god's branch it is **out of reach** — a creature that does not exist on the branch the god can perceive cannot be located, perceived, or possessed by that god.
+### Silarmousch's Escape Plan **[CONFIRMED 2026-07-14]**
 
-**Why this fits the established themes:**
+Silarmousch is a direct duplicate of Uskar, minted when Uskar split time to witness the first possession (see [world/forms.md](../world/forms.md) and [characters.md](characters.md)). His inherited decision tree contains the exit — but his duplication-diminished soul can never reach the maximum purity the exit requires. He is a seeker who cannot halt, and his plan falls out of his own tree as a theorem:
 
-- It makes Silarmousch a seeker of the game's *third freedom* (see "The Third Freedom" below) by a different route: not by exiting time entirely, but by branching the timeline so that he is absent from — and therefore imperceptible within — the only branch the Outer God occupies. The god "cannot know whether they are dead, transformed, or free."
-- It makes the Outer God the literal killer of Uskar (Candidate 3) *because* Silarmousch engineered it (Candidate 1) — the two candidates are the same act seen from two ends.
-- The act requires the player to split time, which is a cardinal sin (see [world/souls.md](../world/souls.md) and [world/time.md](../world/time.md)). So the plan still corrupts the god's soul, preserving Silarmousch's previously-stated aim of producing a compromised Outer God — corruption is now the *means*, and self-erasure into an unreachable branch is the *end*.
-
-**Open questions this proposal raises (to resolve before Act 4/5):**
-
-- Does branching alone make Silarmousch unreachable, or must the god be *bound* to the new branch somehow (e.g. unable to step back across the fork that erased him)? The mechanics of "stranding" the god on the Uskar-killed branch need design.
-- If Uskar's death is what summons the Outer God in the first place, and the god is the one who kills Uskar, the loop is total (the self-caused mystery). Is this loop the intended final answer, or one credible reading the game later complicates?
-- What does Silarmousch gain on his intact branch once the god is gone — simple survival, freedom from divine control, or something more?
-- Where in the world is the evidence for "Uskar caused Silarmousch" planted, and is it discoverable in Act 4 (a text, a painting, a witness) without giving the synthesis away early?
+- **The goal: unreachability by other means.** If he cannot become unindexed by exiting time, he must not exist on the branch the perceiving god occupies. A creature that does not exist on the god's branch cannot be located, perceived, or possessed by that god.
+- **The method: the god's own hand.** Steer the summoned Outer God into travelling back to the primordial past and killing Uskar *before the time-split that minted Silarmousch*. On the resulting branch, the duplication never happens and Silarmousch never exists. Killing Uskar at T_d would accomplish nothing — Silarmousch was minted ages earlier; the kill must land before his own creation. Silarmousch provides the route: a decrement-door chain to the dawn of the world — his life's work, **the Long Stair**.
+- **Why he cannot act himself.** If Silarmousch does the deed, the god remains on the original branch beside him and nothing is gained. Only the god's own act moves the god onto the Silarmousch-less branch. He must manipulate, never act — consistent with everything he is.
+- **The stranding mechanism: a Chronos-locked anchor.** A creature carrying a Chronos-locked artifact cannot pass any time door ([world/time.md](../world/time.md)). Silarmousch gifts the player a "warding charm" in Act 4 that is secretly Chronos-locked. If the player commits the kill, the charm binds them to the new branch — unable to step back across the fork. The trap sits in the player's inventory through the entire finale.
+- **The pitch: mercy.** Silarmousch does not sell the murder as murder. He sells it as absolution: *"Kill him at the dawn, and none of it ever happens. No trap. No Lisspeg bleeding on the stones. No Bournache burned up saving you. Erase the cause and you erase everything you did."* He weaponizes the player's guilt. And it is a lie by omission that the tutorial armed the player to catch: going back **forks**, never erases ([world/time.md](../world/time.md)). The parent branch persists; Lisspeg stays dead on it; the player merely abandons everyone on it and strands themselves — sin-wounded, alone, and exactly where Silarmousch wants them. The final exam of the game is remembering how time actually works when someone you hate is offering you absolution.
+- **The corruption still pays.** The act requires splitting time, a cardinal sin. Corruption is the means; self-erasure into an unreachable branch is the end.
 
 ---
 
 ## The Three Antagonistic Forces
 
-### 1. Silarmousch **[CONFIRMED in structure; motives TBD]**
+### 1. Silarmousch **[CONFIRMED — motives resolved 2026-07-14]**
 
 Silarmousch is an old mage who engineered the sequence of events in Rooms 1 through 3 as a trap. He positioned Lisspeg in Room 1 with a key and a story. He placed the Sinner's Dagger in Room 2 where the player would find it. He designed Room 3 as a demonic destination reachable only after the player's soul had been corrupted by murder. The trap is sophisticated, premeditated, and largely successful: most players who reach Room 3 carry a weakened soul and see only the demonic door.
 
-His goal, as currently understood, is to steer the Outer God onto the demonic path. Why he wants this is not yet fully designed.
+His full motive is now fixed: the trap is the opening move of the Escape Plan above. The early corruption softens the god for the eventual pitch; Rooms 1–3 are a mockery of the primordial one-room loop he was born remembering. He knows exactly who Uskar is — he is made of Uskar. Answers to former open questions:
 
-**Open questions about Silarmousch:**
-- Is he trying to protect creatures from divine control by ensuring the arriving god becomes demonic (and therefore less capable, slower to act, more corruptible)?
-- Is he serving a higher power — another god, a faction of gods, or something else — that benefits from a compromised Outer God?
-- Does he know who Uskar is and what the Outer God is ultimately investigating? Does he know the investigation threatens him?
-- Is he capable of being reasoned with, redeemed, or turned? Or is he a committed adversary throughout?
+- He is not serving a higher power. The plan is his own, derived from his own clamped decision tree.
+- He knows precisely what the Outer God is investigating, because he built half of what it will find — and parasitized Uskar's lure (the Room 1 question) for the other half.
+- **Is he redeemable?** Structurally no — his tree cannot reach the halt node, and he knows it. But he is *understandable*, and the player who reconstructs Uskar's tree gets Silarmousch's for free (same tree, clamped). The player defeats him by reading him: predicting the deterministic manipulator and refusing the one input his plan needs — the god's act of killing. Whether the game offers him anything at the end besides defeat (pity, acknowledgment, an impossible mercy) is an Act 5 tone decision. **[TBD]**
 
-These questions are to be resolved in Act 4 design. What is confirmed: Silarmousch is the dominant antagonistic intelligence in the early game, and his architecture — the trap of Rooms 1 through 3 — is the first crisis the player navigates.
+What is confirmed: Silarmousch is the dominant antagonistic intelligence of the whole game, and his architecture — from the Rooms 1–3 trap to the Long Stair — is a single continuous design.
 
 ### 2. The Corrupting Path **[CONFIRMED in architecture]**
 

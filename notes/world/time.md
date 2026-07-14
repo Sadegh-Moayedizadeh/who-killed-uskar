@@ -2,7 +2,7 @@
 
 ## Fundamentals
 
-Time in this world is discrete and integer-valued. T=0 is the moment the entire world comes into being — the origin of everything. The game itself does not begin at T=0: play starts at a later time value, whose exact figure will be fixed in a future design. From the player's perspective, the world already has a history behind it when control begins.
+Time in this world is discrete and integer-valued. T=0 is the moment the entire world comes into being — the origin of everything. At T=0 the world is a single room (the First Room — the Room Form itself) containing exactly one instance of every object Form and the base creature Forms; see [world/forms.md](forms.md) for the full account of the world's ontology and creation. The game itself does not begin at T=0: play starts at a later time value T₀, whose exact figure will be fixed in a future design. From the player's perspective, the world already has a history behind it when control begins.
 
 Time does not progress automatically. It only changes when a creature passes through a door that affects time. While a creature is inside a room, time is frozen from the outside world's perspective. No other time-based events occur inside a time instance; they are already "set" at the start of each time value.
 
@@ -23,13 +23,15 @@ Crucially, **going back in time is not itself a sin, and does not by itself bran
 
 A branch is created only when a creature arrives at a time value in a state that **differs** from the state already recorded there. The difference is what forks the tree, not the act of travelling. New branches can therefore carry different world states from the branch they diverged from: different artifact positions, different creature locations, and duplications. Producing such a divergence by travelling backward is what counts as the sin of splitting time.
 
+When a branch is instantiated, the world mints new copies of the Room Form as needed to hold the divergent state — branching allocates rooms the way a memory system allocates pages. See "How the World Multiplies" in [world/forms.md](forms.md).
+
 ### Duplication
 
 Duplication is one way a returning creature can force a divergent state — and therefore a branch.
 
 If a creature travels back to a past time but arrives in a **different place** than it originally occupied at that time, the original instance still exists where it was, and the arriving creature becomes a second, separate instance of itself. Both instances are now real, distinct entities that do not share state. This populates the world with a new copy of the creature — a way to expand the world and increase its population — but because it diverges the state and branches time, it is a sin.
 
-The entire world was created this way: a primordial creator morphed artifacts and creatures, went back in time, and created multiple instances of reality.
+The entire world was populated this way. There was no single primordial creator: the base creature Forms themselves — one instance of each at T=0 — expanded the world through duplication, item carry-back, and frontier minting of new rooms, each expansion paid for in soul damage. Creation itself is transgression. The full creation history, told from Uskar's perspective on the branch the game is played on, is in [world/forms.md](forms.md).
 
 ## Time and Inventories
 

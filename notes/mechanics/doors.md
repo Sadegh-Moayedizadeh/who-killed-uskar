@@ -6,7 +6,18 @@ Not every door is even visible to every creature. Some doors only reveal themsel
 
 Understanding a door requires knowing both its physical properties (lock, direction) and its metaphysical properties (soul constraint, time effect). A creature that fails to grasp either dimension will find itself trapped.
 
-See also: [world/time.md](world/time.md), [world/souls.md](world/souls.md), [mechanics/artifacts.md](mechanics/artifacts.md).
+See also: [world/time.md](world/time.md), [world/souls.md](world/souls.md), [world/forms.md](world/forms.md), [mechanics/artifacts.md](mechanics/artifacts.md).
+
+---
+
+## Origin: The Door Form
+
+There is exactly one Door Form (see [world/forms.md](world/forms.md)); divine, demonic, time, locked, and neutral doors are variations of it, not separate kinds. Two consequences:
+
+- **Doors never multiply independently.** The Door Form participates in the Room Form — a room *includes* its doors — so every minted room comes into being with its doors already instantiated. There is no way to create a door except by creating a room, or by morphing an existing door.
+- **A door is a crystallized passage.** The first crossing defines its only direction. This is the origin of the one-directionality rule below.
+
+A door's destination can be morphed. Permanently morphing a door to point at a place that does not exist, then passing through it, forces the world to mint a new room to receive the traveler (**frontier minting** — see [world/forms.md](world/forms.md)). This is how the world's map has grown since T=0, and because permanent morphing is a cardinal sin, every room in the world cost its maker a piece of their soul. The first door, at T=0, was a loop: it led back into the First Room, incrementing time — the primordial world was a one-room time loop until Uskar committed the first sin and minted the second room.
 
 ---
 

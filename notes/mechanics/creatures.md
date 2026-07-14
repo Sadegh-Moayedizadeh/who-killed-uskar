@@ -68,34 +68,33 @@ Creatures exist at specific time values and can be encountered, re-encountered, 
 
 ---
 
-## Creature Templates and Variation
+## Lineages: The Creature Forms and Variation
 
-> **Status: proposed.** This section records a design direction, not confirmed mechanics. It builds on the duplication mechanic in [world/time.md](../world/time.md) and the fixed-set approach already used for artifacts in [artifacts.md](artifacts.md).
+> **Status: CONFIRMED (2026-07-14).** Grounded in the Platonic-forms cosmology — see [world/forms.md](../world/forms.md), which is the canonical account.
 
-The world is meant to be expandable — its population can grow over the course of play and across time branches. Two facts already established constrain how this can work:
+The world's population is built on a fixed roster of **creature Forms** — the base creatures, one instance of each at T=0: Uskar, Gounargoun, Pyutkah, Zortaug, Daghal, Sinali (roster detailed in [world/forms.md](../world/forms.md) and [story/characters.md](../story/characters.md)). Every creature in the world belongs to a **lineage**: it is a duplicate-of-a-duplicate of one Form.
 
-1. **Creatures cannot be morphed.** Because a creature carries a soul, it is exempt from the morphing that artifacts undergo (see above and [doors.md](doors.md)). So new creatures cannot simply be morphed into existence the way objects can.
-2. **Creatures multiply by duplication across time.** The way a creature comes to exist in more than one place is the time mechanic: it travels back to a time it was present at, but arrives in a *different* location than its original self occupied. The original instance stays where it was; the arriving creature becomes a second, separate, independent instance. Both are now real. This is the same mechanism that, per [world/time.md](../world/time.md), the primordial creator used to populate the entire world — and, like all such divergence, it forks the timeline and is the sin of splitting time.
+Two established facts constrain how the population grows:
 
-On top of those, this proposal adds a roster-and-variation model, mirroring how objects work:
+1. **Creatures cannot be morphed.** A creature's soul is its form-link ([world/souls.md](../world/souls.md)); morphing would violate it. New creatures cannot be morphed into existence.
+2. **Creatures multiply by duplication across time.** A creature travels back to a time it was present at but arrives in a *different* location than its original self occupied. The original instance stays; the arriving creature becomes a second, separate, independent instance. This forks the timeline and is the sin of splitting time ([world/time.md](../world/time.md)). It is how the Forms themselves populated the world.
 
-- **A fixed set of base creatures (templates).** Just as the world has a fixed set of object types, it has a fixed set of base creatures. Every creature in the world is either one of these base templates or a **variation** derived from one. This keeps the creature space authorable and consistent while still allowing the population to expand.
-- **Each duplicate may be a variation, not an exact copy.** When duplication produces a new instance, that instance need not be identical to its origin. It can differ — and the variation should be able to reach beyond appearance into **character** (personality attributes, behavior), not looks alone.
+**How a duplicate varies without being morphed — resolved.** Variation is **degraded participation** in the Form, not alteration of the instance. The Form is untouched, so no soul rule is violated. Concretely, a duplicate differs from its origin in two ways, and both established candidate sources turn out to be true:
 
-**The open question (carried over from the original thoughts):** *how* is a duplicate altered, given that a creature cannot be morphed? Morphing is the artifact mechanism and is explicitly forbidden for soul-bearing things, so variation must come from somewhere else. Candidate sources to explore:
+- **A smaller soul.** Each generation of duplication produces a fainter participation in the Form — soul capacity shrinks with distance from the Form. (This is why souls "differ in size," per [world/souls.md](../world/souls.md), and why the Forms held the largest souls in history.)
+- **A perturbed decision tree, plus divergent history.** The duplicate inherits a variant of its ancestor's tree (seeded variation at the lineage level) and then drifts further through its own separate experiences, since the two instances share no state (divergent-state variation). Both sources operate together.
 
-- Variation arising naturally from **divergent state**: a duplicate created at a different place, time, and history accumulates a different set of experiences, and its [automated behavior](#automated-behavior) therefore diverges from its origin's. The two instances "do not share state" (per [world/time.md](../world/time.md)), so they can drift apart through what happens to them rather than through any morph.
-- Variation seeded at the **template** level: base creatures define a space of allowed variants (appearance ranges, attribute ranges, behavior-tree parameters), and each instance is one point in that space.
-
-Whether either, both, or some other source is correct is undecided. What is fixed is the boundary: this must not become creature-morphing, which the soul rules forbid.
+**Lineage is personality.** To identify a creature's Form is to know the shape of its choices — its tree is a perturbation of the Form's root tree. Named characters' lineages are recorded in [story/characters.md](../story/characters.md) (e.g. Lisspeg and Sekmidorgue of Gounargoun's line, Bournache of Pyutkah's, Bol of Sinali's, Silarmousch a direct duplicate of Uskar himself). In Act 4 this becomes an investigation tool: the player who learns to read lineages can predict NPC behavior — and steer it by shaping its inputs, truthfully or sinfully.
 
 ## Automated Behavior
 
-> **Status: proposed.** This is the design direction for the open item "Uncontrolled Creatures and Automated Behavior" in [ideas.md](../ideas.md). It is grounded in the determinism already stated in [world/time.md](../world/time.md): "a given world state plus a given set of actions always produces the same next state."
+> **Status: CONFIRMED in structure (2026-07-14); richness/emergence granularity still open.** Grounded in the determinism already stated in [world/time.md](../world/time.md): "a given world state plus a given set of actions always produces the same next state."
 
 Creatures the Outer God is not currently controlling still act. Their actions are driven by the creature's **mind** (its own cognition, see above) and are **deterministic** — the same situation always yields the same decision. This is what makes the whole world reproducible across time travel: stepping back and repeating the same inputs re-creates the same future, so no branch forms unless something genuinely differs (see [world/time.md](../world/time.md)).
 
-**Proposed model:**
+Decision trees are inherited by lineage: each creature Form has a root tree (its essence), and every descendant runs a perturbed variant of it — see "The Form Trees" in [world/forms.md](../world/forms.md), which specifies Uskar's tree in full. One structural fact is load-bearing for the whole game: **Uskar's tree is the only tree in the world with a terminal (halt) node.** Every other tree is a loop. The lie a creature tells corrupts another creature's tree inputs — which is why lying is a cardinal sin: it is soft possession, a creature usurping the god's role of steering another creature ([world/souls.md](../world/souls.md)).
+
+**The model:**
 
 - **Input state.** At a given time value, a creature decides based on (a) the current state of the room it is in, and (b) the **last-known** state of the other rooms it has previously visited — not their true current state, only what that creature last observed. A creature acts on its own limited, possibly stale picture of the world.
 - **Decision.** From that input state the creature makes a deterministic choice via a **decision tree** (movement, combat, picking up or using artifacts, passing doors, etc.). Dialogue is handled by the same idea applied to speech: the branched **conversation trees** already defined in [conversations/index.md](../conversations/index.md) are the talking subset of this behavior, forking on world state, soul soundness, and what the creature has been told.
@@ -111,6 +110,8 @@ This connects to several existing constraints and open questions:
 ## Naming Convention
 
 Creature names follow a consistent phonetic pattern for this world — harsh consonants and unusual vowel combinations (e.g. *Silarmousch*, *Sekmidorgue*, *Bournache*). New creatures should be named to match. The roster of named and placeholder creatures lives in [story/characters.md](story/characters.md).
+
+Names drift across generations: a duplicate diverges from its origin and takes (or is given) a new name. The canonical example is Silarmousch, who began as a duplicate of Uskar (see [world/forms.md](../world/forms.md)).
 
 ---
 

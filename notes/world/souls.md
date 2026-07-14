@@ -8,6 +8,16 @@ A soul is not a collection of separate parts. It is a single, indivisible whole 
 
 See [world/gods.md](world/gods.md) for how gods exercise control through souls, and [world/time.md](world/time.md) for how time interacts with soul damage and restoration.
 
+## The Soul as Form-Link
+
+Ontologically, a soul **is** the creature's link to its Form (see [world/forms.md](world/forms.md)). This definition explains, rather than merely asserts, the rules below:
+
+- A creature cannot be morphed because morphing would violate its form-link — the thing that makes it what it is.
+- A monster is not a damaged creature but a **formless** one: soundness 0 means the link is severed, and identity *is* form-participation.
+- Gods perceive and possess creatures *through* their form-links; a soulless creature is invisible to the divine because there is no link to see it by.
+- Souls differ in **size** because each generation of duplication produces a fainter participation in the Form. Soul capacity shrinks with distance from the Form. Uskar — a Form itself — held the largest soul the world has ever contained.
+- A willing sacrifice transfers participation: the giver's form-share passes to the recipient.
+
 ---
 
 ## Soul Soundness
@@ -58,6 +68,10 @@ Cardinal sins corrupt the soul. Each act of sin reduces its soundness. The sins 
 4. **Permanently morphing an object** — altering an object's fundamental nature irreversibly. Temporary morphing is not a sin; only permanent, irreversible alteration is.
 5. **Splitting time** — traveling backward in time in a way that creates a new branch of the time-tree. See [world/time.md](world/time.md) for a full account of how time branching works.
 6. **Using a doll demonically** — harming a creature through its doll effigy.
+
+### Why These Are the Sins
+
+The list is not arbitrary. Read against the god-layer, every cardinal sin is a creature performing a **divine operation**: splitting time *creates* instances of creatures and objects; permanent morphing *creates* rooms (frontier minting — see [world/forms.md](world/forms.md)); murder *destroys* an instance of a Form; lying and deceit *control* another creature by corrupting the inputs of its deterministic decision tree — soft possession; demonic doll use is remote action on a creature — a god's reach. Sin is trespass on the god-layer. A creature's form-link is not rated for those operations, and carrying them out damages it.
 
 ---
 
@@ -124,5 +138,9 @@ This is not freedom. It is a different kind of imprisonment.
 There is a deeper secret that very few creatures understand. A god's perception — like any creature's perception — is ordered by time. Gods comprehend the world through temporal structure. Anything that exists outside of time entirely is beyond their understanding and therefore beyond their control.
 
 True freedom does not come from destroying the soul. It comes from existing outside the bounds of time itself. Such a state is incomprehensible to gods. They cannot perceive it, model it, or reach into it.
+
+Mechanically, the exit is **unindexing**: a god perceives form-links *at time values* — the link is indexed by time — and the exit removes the link's time index. The creature still participates in its Form, but at no time value. It is not dead (the link has not snapped) and not a monster (the link has not severed). It is unaddressable, forever.
+
+This is also why the exit **requires maximum purity**. Pulling a form-link whole out of the time index is only possible if the link is unwounded; a corroded link tears, and the creature simply dies. This is the error of the cult of mass suicide — they pull the link by dying, and it snaps. The difference is provable inside the game: dolls of the cult's dead show corpses; the doll of a truly exited creature shows **nothing**.
 
 This is the real secret of the game.

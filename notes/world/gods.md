@@ -18,7 +18,11 @@ The player's divine nature is not revealed at the start. Rooms 1 through 3 prese
 
 An Outer God does not exist within the world's time or space. It perceives the world through a vessel and acts upon it through that vessel's body and soul. The god is not the creature. The god is the force directing the creature.
 
-Starting the game is itself a divine act. The first vessel in Room 1 is the Outer God's initial manifestation — the god's first reach into this world.
+Gods do not see matter; they see the **form-layer** — the web of form-links (souls) that ties every creature to its Form, indexed by time value. See [world/forms.md](world/forms.md) and [world/souls.md](world/souls.md). This is why a soulless creature is invisible to gods, and why a creature whose form-link carries no time index (one that has exited time) cannot be perceived at all.
+
+Gods arrive through the **First Room** — the Room Form itself, the world's port, the place where the outside first touches the inside. The first possession in history (Gounargoun's) happened there, and every god's first reach into the world passes through it. This is why the player's first vessel wakes in Room 1.
+
+Starting the game is itself a divine act. The first vessel in Room 1 is the Outer God's initial manifestation — the god's first reach into this world. And the player's arrival was not spontaneous: the god was **summoned** — lured — by the question stamped on the First Room. A question no god can answer, placed where gods arrive, is bait no god can ignore. See [story/narrative.md](../story/narrative.md).
 
 ### Limits of the Outer God
 
@@ -79,7 +83,7 @@ There are a few ways a creature can escape the reach of the gods, none of them e
 
 **Soullessness.** Severance from gods by destroying the soul is one form of freedom — but it is brutal and irreversible, and it costs the creature its mind along with its divine link.
 
-**Existing outside time.** A being outside of time entirely is imperceptible to all gods, regardless of soul strength. Gods perceive through time; remove the time axis and the being simply cannot be found. This is the deepest freedom in the world's cosmology, and it is almost impossibly difficult to achieve.
+**Existing outside time.** A being outside of time entirely is imperceptible to all gods, regardless of soul strength. Gods perceive through time; remove the time axis and the being simply cannot be found. This is the deepest freedom in the world's cosmology, and it is almost impossibly difficult to achieve: the exit is the unindexing of a form-link from time, it requires a soul at maximum purity (a wounded link tears instead of pulling free — the exiting creature merely dies), and by its nature no record of a successful exit can exist inside time. Uskar's is the only exit the game's design confirms; whether others have followed is unknowable even to the designers of the world's creatures. See [world/souls.md](world/souls.md) and [world/forms.md](world/forms.md).
 
 **Solitude.** A god can only possess a creature it is aware of, and a god becomes aware of a creature by observing it. A creature that lives in complete solitude — out of sight, away from anywhere a god might watch — can avoid being discovered, and so avoid being taken. This path requires neither destroying the soul nor escaping time, but it demands a life of isolation and concealment that no creature finds comfortable.
 

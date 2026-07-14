@@ -2,6 +2,10 @@
 
 The player can drop any artifact they carry, leaving it at a specific location and time value. A dropped artifact remains where it was left until something or someone moves it, and can be picked up later — by another creature, or by the player in a future vessel.
 
+## Artifacts and the Forms
+
+Every artifact kind below corresponds to exactly one object **Form** (see [world/forms.md](../world/forms.md)). At T=0 the world contained a single instance of each; every artifact since is a copy descended from that first instance, multiplied by being carried backward through time (see "Time and Inventories" in [world/time.md](../world/time.md)). An artifact's fundamental kind *is* its Form — which is why morphing can change an object's characteristics but never its kind. The one-to-one pairing of key types and lock types is form-kinship: the Key Form and the Lock Form are counterparts.
+
 ## Classes
 
 Artifacts are divided into three classes based on their relationship with soul soundness. If a creature fails to meet the soul constraint of a magical or demonic artifact, that artifact behaves as a physical one.
